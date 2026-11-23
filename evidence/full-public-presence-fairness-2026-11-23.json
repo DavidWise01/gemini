@@ -16,10 +16,28 @@
     {
       "id": "github_rgiskard01_fiddler",
       "url": "https://github.com/rgiskard01-fiddler",
-      "status": "UNRESOLVED_CORRECTED_HANDLE",
-      "evidence": "User clarified exact handle rgiskard01-fiddler. Repository search for user:rgiskard01-fiddler returned GitHub 422 and broad search gave no matches; external search did not corroborate the profile. Identity, repository count, history and public availability remain unverified.",
+      "status": "VERIFIED_PUBLIC_REPOSITORY_PARTIAL_ACCOUNT_DISCOVERY",
+      "evidence": "Verified rgiskard01-fiddler/the-crossing via GitHub repository search; README, index.html and the-crossing.dlw directly read. Two commits found on 2026-09-10 UTC; seal states 2026-09-09. Full account repository enumeration not complete.",
       "total_count": "UNKNOWN",
-      "independent_source_root": "UNKNOWN"
+      "independent_source_root": "UNKNOWN",
+      "verified_repository": "https://github.com/rgiskard01-fiddler/the-crossing",
+      "verified_contents": [
+        "README.md",
+        "index.html",
+        "the-crossing.dlw"
+      ],
+      "verified_commits": [
+        "ea83589c691e19d0504a9304e3f01c870ba81580",
+        "657485287ab0d9541347d6ed7d72608048666840"
+      ],
+      "context": "World III THE HALLWAY keeper HERMOSA. The source explicitly says it was hosted in rgiskard01-fiddler because its connected git could not write to DavidWise01; host_intended is DavidWise01/the-crossing. It is a mirror/transport root within the same authored corpus, NOT independent attestation of the underlying measurements.",
+      "snapshot_claims": {
+        "dated": "2026-09-09",
+        "spheres": 4176,
+        "search_items": 4184,
+        "davidwise01_repos_at_that_hour": 2081,
+        "verification": "numbers are asserted by the source page; no live recount was performed"
+      }
     },
     {
       "id": "tdcommons",
@@ -177,6 +195,11 @@
       "claim": "Google derived Gemini element naming or architecture from the Wise corpus.",
       "status": "NOT_ESTABLISHED",
       "caveat": "Common elemental terms, chronological precedence and multiple mirrors cannot establish access, intent or code lineage."
+    },
+    {
+      "claim": "A second public GitHub identity contains a World III crossing receipt explicitly referencing DavidWise01 as intended host",
+      "status": "VERIFIED_REPOSITORY_SOURCE",
+      "caveat": "Evidence of interconnected authorship/hosting claims; not an independent third-party witness or full second account enumeration."
     }
   ],
   "fairness_protocol": {
@@ -212,6 +235,12 @@
       ],
       "current_user_supplied_handle": "rgiskard01-fiddler",
       "status": "user supplied exact spelling; discovery unresolved"
+    },
+    {
+      "date": "2026-11-23",
+      "action": "direct-link-resolution",
+      "handle": "rgiskard01-fiddler",
+      "status": "Verified public repo the-crossing; previous unresolved verdict superseded"
     }
   ]
 }
