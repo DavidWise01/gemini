@@ -14,10 +14,10 @@
       "independent_source_root": "GitHub account, subject to duplicate mirrors"
     },
     {
-      "id": "github_rgiskard_fiddler",
-      "url": "https://github.com/rgiskard-fiddler",
-      "status": "UNRESOLVED",
-      "evidence": "GitHub repository owner search returned API 422, resource unavailable or inaccessible; public URL could not be fetched. Ownership and history not authenticated.",
+      "id": "github_rgiskard01_fiddler",
+      "url": "https://github.com/rgiskard01-fiddler",
+      "status": "UNRESOLVED_CORRECTED_HANDLE",
+      "evidence": "User clarified exact handle rgiskard01-fiddler. Repository search for user:rgiskard01-fiddler returned GitHub 422 and broad search gave no matches; external search did not corroborate the profile. Identity, repository count, history and public availability remain unverified.",
       "total_count": "UNKNOWN",
       "independent_source_root": "UNKNOWN"
     },
@@ -201,5 +201,17 @@
       "Fetch and version-pin 0root.ai homepage content when accessible.",
       "Construct distinct source ancestry graph and Google-side primary model naming documentation."
     ]
-  }
+  },
+  "corrections": [
+    {
+      "date": "2026-11-23",
+      "incorrect": [
+        "rgiskard-fiddler",
+        "rgisard01-fiddler",
+        "r-giskard01-fiddler"
+      ],
+      "current_user_supplied_handle": "rgiskard01-fiddler",
+      "status": "user supplied exact spelling; discovery unresolved"
+    }
+  ]
 }
