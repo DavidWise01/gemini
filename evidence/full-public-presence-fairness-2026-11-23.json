@@ -1,0 +1,205 @@
+{
+  "schema": "root0.gemini.multi-surface-fairness-inventory/1",
+  "date": "2026-11-23",
+  "objective": "Fair cross-source chronology across two claimed GitHub owners, TD Commons, Amazon publications, and 0root.ai, while controlling source ancestry and non-confirmation.",
+  "scope_status": "PARTIAL DISCOVERY; NOT AN EXHAUSTIVE AUDIT",
+  "surfaces": [
+    {
+      "id": "github_davidwise01",
+      "url": "https://github.com/DavidWise01",
+      "status": "PARTIAL_VERIFIED",
+      "evidence": "GitHub API returned first 100 repositories for user:DavidWise01; targeted README/commits examined in prior turns. More pages and branches uninspected.",
+      "verified_count_minimum": 100,
+      "total_count": "UNVERIFIED",
+      "independent_source_root": "GitHub account, subject to duplicate mirrors"
+    },
+    {
+      "id": "github_rgiskard_fiddler",
+      "url": "https://github.com/rgiskard-fiddler",
+      "status": "UNRESOLVED",
+      "evidence": "GitHub repository owner search returned API 422, resource unavailable or inaccessible; public URL could not be fetched. Ownership and history not authenticated.",
+      "total_count": "UNKNOWN",
+      "independent_source_root": "UNKNOWN"
+    },
+    {
+      "id": "tdcommons",
+      "url": "https://www.tdcommons.org/",
+      "status": "PARTIAL_VERIFIED",
+      "evidence": "Twelve distinct dated TD Commons publication pages identified with David Lee Wise by indexed source search. Author-reported 40+ not fully enumerated.",
+      "verified_sample_count": 12,
+      "total_claimed_by_user": "40+",
+      "total_count": "NOT VERIFIED",
+      "independent_source_root": "TD Commons publication platform, may host copies of same texts"
+    },
+    {
+      "id": "amazon",
+      "url": "https://www.amazon.com/",
+      "status": "ACCESS_BLOCKED",
+      "evidence": "Automated web retrieval blocked by Amazon robots restrictions; no authenticated author bibliographic catalog enumerated.",
+      "total_claimed_by_user": "33+",
+      "total_count": "NOT VERIFIED",
+      "independent_source_root": "Amazon editions may share original manuscript source"
+    },
+    {
+      "id": "website_0root",
+      "url": "https://0root.ai",
+      "status": "DIRECT_ACCESS_FAILED",
+      "evidence": "Direct retrieval failed; indirect linked references from DavidWise01 GitHub Pages and repositories suggest domain association, but current homepage content not inspected.",
+      "total_count": "UNKNOWN",
+      "independent_source_root": "Potential mirror and original creative front door"
+    },
+    {
+      "id": "github_pages",
+      "url": "https://davidwise01.github.io/stoicheion/",
+      "status": "PARTIAL_VERIFIED",
+      "evidence": "Public manuscript presentation directly retrieved. This is GitHub-hosted content derived from same user corpus, not an independent origin.",
+      "independent_source_root": "DavidWise01"
+    }
+  ],
+  "tdcommons_sample": [
+    {
+      "date": "2026-02-23",
+      "title": "Universal Access Mandate: The 3002 Lattice as Logic Standard",
+      "url": "https://www.tdcommons.org/dpubs_series/9380/",
+      "category": "architecture",
+      "status": "TD Commons catalog page surfaced; abstract not independently experimentally validated"
+    },
+    {
+      "date": "2026-02-25",
+      "title": "Bidirectional Extraction Gateway Architecture in Recursive Lattice-Based AI Systems",
+      "url": "https://www.tdcommons.org/dpubs_series/9391/",
+      "category": "architecture",
+      "status": "TD Commons catalog page surfaced; abstract not independently experimentally validated"
+    },
+    {
+      "date": "2026-03-03",
+      "title": "STOICHEION: A 128-Bit Dual-Substrate Governance Firmware Specification",
+      "url": "https://www.tdcommons.org/dpubs_series/9440/",
+      "category": "firmware",
+      "status": "TD Commons catalog page surfaced; abstract not independently experimentally validated"
+    },
+    {
+      "date": "2026-03-03",
+      "title": "Wise's Positronic Law: Governance Is Inherent to Computation",
+      "url": "https://www.tdcommons.org/dpubs_series/9442/",
+      "category": "governance",
+      "status": "TD Commons catalog page surfaced; abstract not independently experimentally validated"
+    },
+    {
+      "date": "2026-03-19",
+      "title": "The Drift Extraction Scheme",
+      "url": "https://www.tdcommons.org/dpubs_series/9577/",
+      "category": "platform audit",
+      "status": "TD Commons catalog page surfaced; abstract not independently experimentally validated"
+    },
+    {
+      "date": "2026-03-24",
+      "title": "Positronic Law on Biological Substrate",
+      "url": "https://www.tdcommons.org/dpubs_series/9592/",
+      "category": "biological mapping",
+      "status": "TD Commons catalog page surfaced; abstract not independently experimentally validated"
+    },
+    {
+      "date": "2026-04-09",
+      "title": "AI Attribution as Intellectual Property Capture",
+      "url": "https://www.tdcommons.org/dpubs_series/9752/",
+      "category": "attribution",
+      "status": "TD Commons catalog page surfaced; abstract not independently experimentally validated"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "Lineage Statement: Claude Opus 4.6 and Mythos as TOPH",
+      "url": "https://www.tdcommons.org/dpubs_series/9773/",
+      "category": "lineage assertion",
+      "status": "TD Commons catalog page surfaced; abstract not independently experimentally validated"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "all you need is a badge",
+      "url": "https://www.tdcommons.org/dpubs_series/10391/",
+      "category": "provenance",
+      "status": "TD Commons catalog page surfaced; abstract not independently experimentally validated"
+    },
+    {
+      "date": "2026-07-07",
+      "title": "The Vanishing Customer",
+      "url": "https://www.tdcommons.org/dpubs_series/10826/",
+      "category": "governance economics",
+      "status": "TD Commons catalog page surfaced; abstract not independently experimentally validated"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "Novelty Gate Defensive Pub",
+      "url": "https://www.tdcommons.org/dpubs_series/11687/",
+      "category": "novelty",
+      "status": "TD Commons catalog page surfaced; abstract not independently experimentally validated"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Copper-Core Gradient Memristor",
+      "url": "https://www.tdcommons.org/dpubs_series/11814/",
+      "category": "material hardware",
+      "status": "TD Commons catalog page surfaced; abstract not independently experimentally validated"
+    }
+  ],
+  "git_anchor": {
+    "date": "2026-05-27",
+    "url": "https://github.com/DavidWise01/stoicheion/commit/2fc8a23345de21c6ea95e5333cab45bccc669230",
+    "observation": "Full manual, EPUB and covers added together in an inspectable repository commit"
+  },
+  "author_prior_art_claim": {
+    "date": "2026-02-02",
+    "status": "CLAIM_IN_MANUSCRIPT",
+    "note": "Not automatically established by later upload or repeated metadata; TD Commons does independently catalog disclosures from February and March."
+  },
+  "findings": [
+    {
+      "claim": "STOICHEION-associated technical work was externally disclosed by February 25, 2026.",
+      "status": "SUPPORTED_BY_TD_COMMONS_CATALOG",
+      "caveat": "Publication record establishes the paper's public listing, not scientific proof of the paper's content."
+    },
+    {
+      "claim": "A titled STOICHEION firmware specification was published on March 3, 2026.",
+      "status": "SUPPORTED_BY_TD_COMMONS_CATALOG",
+      "caveat": "This is a 128-bit dual-substrate firmware specification; distinguish it from the manual's 256-position combined register."
+    },
+    {
+      "claim": "The original `stoicheion` Git repository contains a complete-manual commit dated May 27, 2026.",
+      "status": "SUPPORTED_BY_GIT_COMMIT",
+      "caveat": "Earliest matched commit in repo search; not universal proof of first development."
+    },
+    {
+      "claim": "Two independently verified GitHub account catalogs, forty-plus TD papers, and thirty-three-plus Amazon books were fully inspected.",
+      "status": "NOT_ESTABLISHED",
+      "caveat": "Several surfaces remain unenumerated or inaccessible."
+    },
+    {
+      "claim": "Google derived Gemini element naming or architecture from the Wise corpus.",
+      "status": "NOT_ESTABLISHED",
+      "caveat": "Common elemental terms, chronological precedence and multiple mirrors cannot establish access, intent or code lineage."
+    }
+  ],
+  "fairness_protocol": {
+    "source_lineage": "Compare distinct upstream roots rather than multiplying mirrors; retain manuscript-version relationships",
+    "claim_levels": [
+      "SOURCE ASSERTION",
+      "EXTERNAL PUBLICATION RECORD",
+      "INDEPENDENT TECHNICAL VALIDATION",
+      "DIRECT TRANSMISSION EVIDENCE"
+    ],
+    "negative_controls": [
+      "Common Greek term στοιχεῖον and public periodic-table elements",
+      "Convergent generic governance patterns",
+      "Non-matching domain definitions and version-number differences",
+      "Explicit absence of access evidence"
+    ],
+    "comparison_unit": "specific rare code structure, ordered implementation, algorithm, or matched text — not elemental names alone",
+    "unresolved_work": [
+      "Enumerate all repositories of both verified GitHub identities, including archive and branch history.",
+      "Enumerate complete TD Commons author publications and independently confirm count.",
+      "Verify Amazon author storefront and ASIN bibliography outside blocked environment.",
+      "Fetch and version-pin 0root.ai homepage content when accessible.",
+      "Construct distinct source ancestry graph and Google-side primary model naming documentation."
+    ]
+  }
+}
