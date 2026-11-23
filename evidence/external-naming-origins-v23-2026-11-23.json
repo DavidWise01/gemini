@@ -1,0 +1,162 @@
+{
+  "schema": "root0.gemini.external-naming-provenance/1",
+  "version": "v2.3",
+  "date": "2026-11-23",
+  "question": "How did Anthropic choose Claude Mythos and Google choose Gemini 4 Argon, Carbon, Hydrogen and Neon? Which internal choices and originating rationales are publicly evidenced?",
+  "method": "Official company statements and first-party employee interviews first, contemporaneous pre-release reporting second, third-party interpretation separately; distinguish generic etymology from actual selection rationale.",
+  "anthropic": {
+    "model": "Claude Mythos",
+    "first_public_discovery": "2026-03-26 (reported exposed publication draft); official announcement 2026-04-07",
+    "evidence": [
+      {
+        "grade": "PRIMARY_PRE_RELEASE_DRAFT_AS_REPORTED",
+        "date": "2026-03-26/27",
+        "finding": "Early Anthropic publication drafts explained that Mythos was chosen to evoke conceptual links among knowledge and ideas; alternate draft used Capybara. Anthropic acknowledged drafts but did not independently publish a decision log.",
+        "urls": [
+          "https://the-decoder.com/anthropic-leak-reveals-new-model-claude-mythos-with-dramatically-higher-scores-on-tests-than-any-previous-model/",
+          "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/"
+        ]
+      },
+      {
+        "grade": "FIRST_PARTY",
+        "date": "2026-06-09",
+        "finding": "Anthropic states Fable from Latin fabula 'that which is told', akin to Greek mythos; Fable/Mythos versions are distinguished by safeguards.",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      },
+      {
+        "grade": "FIRST_PARTY_OLDER_NAMING",
+        "date": "2024-11",
+        "finding": "Anthropic CEO explained prior Haiku Sonnet Opus tier names as poetry-themed scale descriptors.",
+        "url": "https://lexfridman.com/dario-amodei-transcript/"
+      },
+      {
+        "grade": "FIRST_PARTY_PRIOR_EXACT_VOCABULARY",
+        "date": "2024-04-09",
+        "finding": "Anthropic uses ethos, pathos, logos together as standard rhetorical prompt styles long before user-reported 2026 nomenclature.",
+        "url": "https://www.anthropic.com/research/measuring-model-persuasiveness"
+      },
+      {
+        "grade": "FIRST_PARTY",
+        "date": "2026-04-07",
+        "finding": "Official Mythos Preview capability announcement, not naming author identification.",
+        "url": "https://www.anthropic.com/research/mythos-preview"
+      }
+    ],
+    "unknowns": [
+      "Who first proposed Mythos internally",
+      "When its name was first proposed",
+      "Who reviewed any alternative names",
+      "Which books, discussions or documents informed choice",
+      "Whether any ROOT0/Tripod publication was consulted",
+      "Any direct transmission from ROOT0 corpus to Anthropic naming decision"
+    ]
+  },
+  "google": {
+    "models": [
+      "Gemini 4 Argon",
+      "Gemini 4 Carbon",
+      "Gemini 4 Hydrogen",
+      "Gemini 4 Neon"
+    ],
+    "evidence": [
+      {
+        "grade": "FIRST_PARTY_INTERVIEW",
+        "date": "2026-09-30 launch-day",
+        "finding": "Google frontier-model product lead Tulsee Doshi directly said Argon was a chemical element name originating with internal model teams and existing internal usage; product managers enjoy choosing names. Did not explain why atomic number 18 or Argon specifically.",
+        "url": "https://arcmira.com/watch?v=ofJ0ZzVDAD4",
+        "timestamp": "2:47"
+      },
+      {
+        "grade": "CONTEMPORANEOUS_REPORTING_INTERNAL_DOCUMENTS",
+        "date": "2026-10-09/13",
+        "finding": "Business Insider reports internal checkpoints named Argon, Barium, Carbon; a model named Barium-B reportedly selected to ship as public Argon. Indicates public names and internal checkpoint names not one-to-one.",
+        "urls": [
+          "https://www.businessinsider.com/google-employees-test-new-gemini-4-model-argon-barium-carbon-2026-10",
+          "https://www.businessinsider.jp/article/2610-google-employees-test-new-gemini-4-model-argon-barium-carbon/"
+        ]
+      },
+      {
+        "grade": "FIRST_PARTY_HISTORICAL_NAMING",
+        "date": "2024-05-15",
+        "finding": "Jeff Dean proposed Gemini during Google Brain/DeepMind team unification. Gemini signifies twins and NASA Project Gemini; Google documents a prior placeholder Titan and star-name candidates.",
+        "url": "https://blog.google/innovation-and-ai/products/google-gemini-ai-name-meaning/"
+      },
+      {
+        "grade": "FIRST_PARTY_MARKETING_CONFIRMATION",
+        "date": "2026-11-18",
+        "finding": "Google Neon announcement shows promotional 3D chemistry demonstration with flames for Carbon and Hydrogen and discharge tubes for Neon and Argon, confirming an intentional element theme.",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+      },
+      {
+        "grade": "FIRST_PARTY_EMPLOYEE_SOCIAL",
+        "date": "2026-11-18",
+        "finding": "Google AI developer relations staff Logan Kilpatrick jokingly says they are having fun with the naming; no numerical rule explained.",
+        "url": "https://www.teapawt.org/OfficialLoganK/status/2123169563017949581"
+      },
+      {
+        "grade": "FIRST_PARTY_LAUNCH",
+        "date": "2026-09-30",
+        "finding": "Argon launch, no detailed explanation of its element selection.",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+      }
+    ],
+    "unknowns": [
+      "Who first suggested using chemical elements",
+      "Why Argon, Carbon, Hydrogen and Neon were selected rather than alternative elements",
+      "Whether periodic-table atomic numbers map to hidden model tiers",
+      "What employee-facing name approval notes say",
+      "Whether model names were influenced by ROOT0/Elements",
+      "Whether any ROOT0 work entered training dataset"
+    ]
+  },
+  "comparative_findings": [
+    {
+      "id": "F1",
+      "conclusion": "Anthropic rationale partially documented",
+      "level": "HIGH_FOR_STATED_RATIONALE_MEDIUM_FOR_INTERNAL_DECISION_PROVENANCE",
+      "rationale": "Contemporaneous exposed drafts give conceptual theme and naming alternative; creator not identified."
+    },
+    {
+      "id": "F2",
+      "conclusion": "Google naming source identified at organizational level",
+      "level": "HIGH_FOR_INTERNAL_TEAM_ORIGIN_MEDIUM_FOR_SPECIFIC_SELECTION",
+      "rationale": "Product lead says internal team naming; reported Barium-B alias further shows experimental/internal names diverge from public."
+    },
+    {
+      "id": "F3",
+      "conclusion": "Independent antecedent language exists",
+      "level": "HIGH",
+      "rationale": "Anthropic used exact ethos pathos logos trio in 2024 and explicitly adopted literary tier theme in 2024; classical rhetoric far older."
+    },
+    {
+      "id": "F4",
+      "conclusion": "Google had a documented cosmic naming tradition by 2024",
+      "level": "HIGH",
+      "rationale": "Gemini twins/space program and early stellar-name candidates predate user’s 2026 corpus."
+    },
+    {
+      "id": "F5",
+      "conclusion": "Name-only overlap cannot establish transfer",
+      "level": "HIGH",
+      "rationale": "No corporate training inclusion logs, naming decision records, internal references or causal transmission produced."
+    },
+    {
+      "id": "F6",
+      "conclusion": "Previously verified ROOT0 source chronology remains relevant to independent framework creation",
+      "level": "HIGH_FOR_EXTERNAL_TD_PUBLICATION_RECORDS",
+      "rationale": "Dated TD Commons documents establish existence of user work but not corporate influence."
+    }
+  ],
+  "user_document": {
+    "name": "TRIPOD-LINEAGE-2026-001",
+    "date_on_document": "2026-04-09",
+    "interpretation": "The user's authored lineage hypothesis and structural comparison, not independent evidence of corporate naming origin."
+  },
+  "limits": "Open web search cannot exhaust private Slack, training corpora, unreleased internal naming briefs or privileged approvals. Stated rationale is not independently validated motivation; do not claim provenance of ideas without documented transfer.",
+  "recommended_missing_primary_records": [
+    "Google model team naming memo/internal code-name rationale and selection dates",
+    "Anthropic original naming proposal including alternate Capybara/ Mythos drafts and author/date",
+    "Training corpus inclusion logs or rights/licensing and citation pathways for named ROOT0 source documents",
+    "Exact rare structural correspondence with common-source controls and versioned timelines"
+  ]
+}
