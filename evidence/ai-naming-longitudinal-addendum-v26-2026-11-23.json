@@ -1,0 +1,202 @@
+{
+  "schema": "root0.convergence.ai-naming-lineage-addendum/1",
+  "version": "2.6",
+  "recorded_date": "2026-11-23",
+  "inherits": "evidence/ai-naming-longitudinal-audit-1955-2026-v25.json",
+  "columns": [
+    "date",
+    "organization",
+    "name",
+    "description",
+    "naming_family",
+    "evidence_category",
+    "source_url"
+  ],
+  "events": [
+    [
+      "1965",
+      "Historic",
+      "DENDRAL",
+      "Dendritic Algorithm: molecular tree-search and chemical structure hypothesis generation; detailed mechanism documented",
+      "TECHNICAL_ACRONYM",
+      "TECHNICAL_FUNCTION_VERIFIED",
+      "https://circulatingnow.nlm.nih.gov/2026/09/17/computers-artificial-intelligence-and-expert-systems-in-biomedical-research/"
+    ],
+    [
+      "1972",
+      "Historic",
+      "MYCIN",
+      "Clinical rules for infectious-disease antibiotic advice; original specific MYCIN word-choice rationale not confirmed",
+      "FUNCTIONAL_OR_CODE_NAME",
+      "NON_MOOT_SPECIFIC_WORD_ORIGIN",
+      "https://www.nationalacademies.org/read/6323/chapter/11"
+    ],
+    [
+      "1972",
+      "Historic",
+      "PARRY",
+      "Conversational simulation of psychiatric patient; original name-specific selection rationale not verified",
+      "PERSONA_HUMAN",
+      "PARTIAL_NAME_RATIONALE",
+      "https://circulatingnow.nlm.nih.gov/2026/09/17/computers-artificial-intelligence-and-expert-systems-in-biomedical-research/"
+    ],
+    [
+      "2011",
+      "IBM",
+      "Watson",
+      "Named for IBM founder Thomas J. Watson and son; IBM executive confirms organizational homage",
+      "INSTITUTIONAL_EPONYM",
+      "FIRST_PARTY_NAME_ASSOCIATION",
+      "https://www.ciodive.com/news/ibm-watson-ai-gm-beth-smith-talks-techs-celebrity-need-for-transparency/551346/"
+    ],
+    [
+      "2018",
+      "OpenAI",
+      "GPT",
+      "Generative Pre-trained Transformer: acronym denotes architecture and training scheme",
+      "TECHNICAL_ACRONYM",
+      "FUNCTIONAL_ACRONYM",
+      "https://developers.openai.com/api/docs/concepts"
+    ],
+    [
+      "2021",
+      "OpenAI",
+      "DALL·E",
+      "Image generation system; common interpretation combines artistic and fictional references, but no first-person original proposal record inspected",
+      "LITERARY_ARTISTIC_BRAND",
+      "NON_MOOT_SPECIFIC_SELECTION",
+      "https://openai.com/index/dall-e/"
+    ],
+    [
+      "2022",
+      "OpenAI",
+      "Whisper",
+      "Automatic speech recognition; whispering is a related speech metaphor but no contemporaneous name-selection decision located",
+      "AUDIO_METAPHOR",
+      "NON_MOOT_SPECIFIC_SELECTION",
+      "https://openai.com/index/whisper/"
+    ],
+    [
+      "2024-02",
+      "OpenAI",
+      "Sora",
+      "Original placeholder 'videogen'; team ran last-minute name brainstorming with ChatGPT and chose Japanese sky for creative possibility",
+      "SYMBOLIC_BRAND",
+      "FIRST_PERSON_DECISION_PROCESS_REPORTED",
+      "https://pod.wave.co/podcast/tbpn/full-interview-sam-altman-on-sora-and-the-future-of-openai"
+    ],
+    [
+      "2023",
+      "Meta",
+      "LLaMA",
+      "Large Language Model Meta AI, coined as an acronym matching a recognizable animal word",
+      "TECHNICAL_ACRONYM_AND_ANIMAL",
+      "FIRST_PARTY_ACRONYM",
+      "https://ai.meta.com/blog/large-language-model-Llama-meta-ai/"
+    ],
+    [
+      "2023",
+      "Meta",
+      "Segment Anything Model (SAM)",
+      "Acronym describes the intended promptable image segmentation capability",
+      "TECHNICAL_ACRONYM",
+      "FIRST_PARTY_FUNCTIONAL",
+      "https://ai.meta.com/research/sam2/"
+    ],
+    [
+      "2023",
+      "xAI",
+      "Grok",
+      "Brand's documented intended behavior modeled on Hitchhiker's Guide; borrowed word appears in earlier science fiction, but exact original decision record is not fully documented",
+      "SCIENCE_FICTION_PERSONA",
+      "PARTIAL_FIRST_PARTY_INSPIRATION",
+      "https://x.ai/news/grok"
+    ],
+    [
+      "2024",
+      "DeepMind",
+      "AlphaGeometry",
+      "Alpha research lineage + geometry theorem solving function",
+      "ENGINEERING_LINEAGE",
+      "FUNCTIONAL_LINK",
+      "https://deepmind.google/science/"
+    ],
+    [
+      "2023",
+      "DeepMind",
+      "AlphaDev",
+      "Alpha lineage + software-development algorithm discovery context",
+      "ENGINEERING_LINEAGE",
+      "FUNCTIONAL_LINK",
+      "https://deepmind.google/research/alphago/"
+    ],
+    [
+      "2019",
+      "DeepMind",
+      "MuZero",
+      "AlphaZero successor with learned world model; exact Greek letter choice not independently documented in inspected evidence",
+      "MATHEMATICAL_ENGINEERING",
+      "PARTIAL_SPECIFIC_NAME_RATIONALE",
+      "https://deepmind.google/research/alphago/"
+    ],
+    [
+      "2024",
+      "DeepMind",
+      "AlphaCode",
+      "Alpha lineage + competitive programming functionality",
+      "ENGINEERING_LINEAGE",
+      "FUNCTIONAL_LINK",
+      "https://deepmind.google/research/projects/"
+    ]
+  ],
+  "counts": {
+    "baseline": 25,
+    "added": 15,
+    "combined": 40
+  },
+  "method": "Chronology extension with original owner sources where available; links are citations for the program's name and role, not necessarily proof of who invented or selected that exact label.",
+  "origin_calibrators": [
+    {
+      "name": "DENDRAL",
+      "status": "ROOTED_TECHNICAL_REASON",
+      "source": "https://circulatingnow.nlm.nih.gov/2026/09/17/computers-artificial-intelligence-and-expert-systems-in-biomedical-research/",
+      "observation": "Dendritic Algorithm and molecular search trees are explicitly connected to the program design in NLM historical collection."
+    },
+    {
+      "name": "Sora",
+      "status": "FIRST_PERSON_NAMING_PROCESS",
+      "source": "https://pod.wave.co/podcast/tbpn/full-interview-sam-altman-on-sora-and-the-future-of-openai",
+      "observation": "Team member gives original placeholder, failed candidate search, AI-assisted brainstorming, language switch, selected term, symbolic reason, launch timing. This is a useful origin account even without a formal dated naming memo."
+    },
+    {
+      "name": "LLaMA",
+      "status": "EXPLICIT_ACRONYM",
+      "source": "https://ai.meta.com/blog/large-language-model-Llama-meta-ai/",
+      "observation": "Meta explicitly expands LLaMA into technical/organizational components."
+    },
+    {
+      "name": "Grok",
+      "status": "FIRST_PARTY_STYLE_INSPIRATION_PARTIAL_NAME_PROVENANCE",
+      "source": "https://x.ai/news/grok",
+      "observation": "xAI explicitly links intended assistant behavior to science fiction; exact origin of selected word is a separate question."
+    }
+  ],
+  "revised_hypothesis": "There is no established single evolutionary progression from mechanical names to symbolism. Acronyms, persona names, literary references and chemical names have overlapped for many decades. Convergence can be evaluated by meaningful structural correspondence and documented transmission, not semantic theme recurrence alone.",
+  "negative_controls": [
+    "DENDRAL's botanical metaphor directly describes a tree search algorithm, providing positive design-grounding standard.",
+    "Sora's first-person narrative shows an evocative name may be selected under ordinary launch-time brainstorming, not a deep previously established architecture.",
+    "Anthropic 2024 rhetoric study predates later conversations about private corpuses; shared words may have independent history.",
+    "Internal model names can be remapped before public launch, as in reported Barium-B / Argon discrepancy."
+  ],
+  "unresolved": [
+    "Original Google naming session for Argon, Neon, Carbon",
+    "Original Anthropic Mythos name proposal and decision author",
+    "Specific time-anchored earliest ETHOS/PATHOS/LOGOS separate user frameworks",
+    "No source-supported external training or naming-transfer trail"
+  ],
+  "limitations": [
+    "Expanded representative sample 40 events, not every AI system or private codename since 1955.",
+    "Some publication years approximate and some reported rationale relies on later oral history.",
+    "No technical name correspondence implies actual source transfer without specific evidence."
+  ]
+}
