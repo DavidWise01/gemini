@@ -22,3 +22,7 @@ These chamber descriptions are **UI labels**, not assertions of traditional ling
 Open `index.html` locally in any modern browser, or use `python3 -m http.server 8000`. No runtime dependencies, tracking, external scripts, or privileged APIs. Motion can be paused; reduced-motion settings are respected. The repository includes `.github/workflows/pages.yml` for Pages deployment. Check [Actions](https://github.com/DavidWise01/gemini/actions) before claiming a live deployment.
 
 `{{ source → dated evidence → hypothesis boundary }} · .dlw`
+
+## STOICHEION elemental corpus expansion · 2026-11-23
+
+[Open the STOICHEION / Elemental Corpus gallery](./stoicheion.html). [Source inventory JSON](./evidence/stoicheion-elemental-corpus-2026-11-23.json) anchors the project to the user-published STOICHEION 256-axiom register and the separate 118 Gates / Stochien Element mapping. The inventory contains a scoped set of verified READMEs, excerpts, dated commits, and discovered repositories. It is **not a complete crawl of every repository or Git history**. The STOICHEION README's claimed 2026-02-02 prior-art date and copyright IDs are attributed to the repository, not independently authenticated.
