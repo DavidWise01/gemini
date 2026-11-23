@@ -1,0 +1,72 @@
+{
+  "schema": "root0.gemini.elemental-chronology/1",
+  "id": "GEMINI-CHEMISTRY-PRIOR-PUBLIC-2026-11-23",
+  "recorded_at": "2026-11-23",
+  "assessment": "PARTIAL",
+  "method": "GitHub commit-message chronological search across DavidWise01, ascending committer date; not exhaustive file-blame history. Search hit GitHub secondary rate limit. Dates represent surviving commits, not idea genesis.",
+  "records": [
+    {
+      "timestamp": "2026-05-27T21:15:09-05:00",
+      "repository": "DavidWise01/root0-tools",
+      "observation": "periodic table",
+      "sha": "a4e2ef1caae3e2477f9b66b161989b3e1e54cbdb",
+      "url": "https://github.com/DavidWise01/root0-tools/commit/a4e2ef1caae3e2477f9b66b161989b3e1e54cbdb"
+    },
+    {
+      "timestamp": "2026-05-28T12:58:43-05:00",
+      "repository": "DavidWise01/al-h2o-reactor",
+      "observation": "hydrogen chemistry",
+      "sha": "aece18939c2a68e3cd3fe28027261f8242d4444a",
+      "url": "https://github.com/DavidWise01/al-h2o-reactor/commit/aece18939c2a68e3cd3fe28027261f8242d4444a"
+    },
+    {
+      "timestamp": "2026-06-09T21:38:05-05:00",
+      "repository": "DavidWise01/elements",
+      "observation": "all 118 elements",
+      "sha": "a33e3086b7811acf7db548935f1fb38711549675",
+      "url": "https://github.com/DavidWise01/elements/commit/a33e3086b7811acf7db548935f1fb38711549675"
+    },
+    {
+      "timestamp": "2026-10-10T19:49:14-05:00",
+      "repository": "DavidWise01/oasis",
+      "observation": "H/O/N/Ne color mapping",
+      "sha": "8a00aba4bc3cf5f1e7f48605459bca2d4a288c96",
+      "url": "https://github.com/DavidWise01/oasis/commit/8a00aba4bc3cf5f1e7f48605459bca2d4a288c96"
+    },
+    {
+      "timestamp": "2026-10-21T11:24:04-05:00",
+      "repository": "DavidWise01/oasis",
+      "observation": "366 symbolic Hydrogen/Oxygen/Nitrogen colors",
+      "sha": "aeb71ebea09ccac26cd140f4081bbc2b69da3767",
+      "url": "https://github.com/DavidWise01/oasis/commit/aeb71ebea09ccac26cd140f4081bbc2b69da3767"
+    },
+    {
+      "timestamp": "2026-11-02T20:40:12-06:00",
+      "repository": "DavidWise01/archon",
+      "observation": "hydrogen and helium comparison",
+      "sha": "bd7f7835b1a565f00d2b1ee9b60ba22fb639a9ab",
+      "url": "https://github.com/DavidWise01/archon/commit/bd7f7835b1a565f00d2b1ee9b60ba22fb639a9ab"
+    }
+  ],
+  "external_candidate": {
+    "url": "https://www.reddit.com/r/singularity/comments/1y3iw2a/gemini_4_helium_spotted_on_the_web/#lightbox",
+    "archived_evidence": "https://github.com/DavidWise01/convergence/blob/main/evidence/candidates/2026-11-23-gemini-4-helium-naming.json",
+    "status": "PARTIAL — third-party naming report, release unverified"
+  },
+  "claim_boundaries": [
+    "Prior Git commit is proof of the surviving timestamped commit, not the first creation of the underlying idea.",
+    "Common elemental names are not evidence of transmission or derivation.",
+    "External screenshots or Reddit reposts may share one source ancestry.",
+    "No verified transmission or copying edge is established."
+  ],
+  "visualization": {
+    "name": "HAKA / WAKA / HANA / KU",
+    "path": "index.html",
+    "chambers": [
+      "origin",
+      "sequence",
+      "chemistry",
+      "evidence boundary"
+    ]
+  }
+}
