@@ -1,0 +1,74 @@
+{
+  "schema": "root0.naming-origin-provenance-gate/1",
+  "recorded_date": "2026-11-23",
+  "classification_label": "NON-MOOT — NO PROVENANCE",
+  "user_definition": "If no named employee/discoverer/original selector is documented for the specific model name, keep the naming-origin question NON-MOOT (unresolved because provenance is missing).",
+  "scope": "Naming decision provenance and identity, not general company-level attribution; company statements and first attestation remain evidence, but do not identify the discoverer.",
+  "decision_rule": {
+    "status_when_missing": "NON-MOOT — NO PROVENANCE",
+    "required_to_close": [
+      "identifiable first proposer/selector of specific name",
+      "dated original proposal or decision record",
+      "documented decision rationale attributable to that proposer/decision group"
+    ],
+    "partial_evidence": [
+      "official company explanation without identifying originator",
+      "general company team attribution",
+      "pre-release marketing draft without named author of proposal",
+      "later promotional chemistry or classical etymology"
+    ],
+    "prohibited_inference": "Missing provenance does not independently prove appropriation, deliberate concealment, simulation, or ingestion."
+  },
+  "cases": [
+    {
+      "label": "Mythos",
+      "organization": "Anthropic",
+      "available_evidence": "Pre-release draft rationale and alternate codename; later linguistic explanation.",
+      "origin_employee_identified": false,
+      "original_name_discovery_document_identified": false,
+      "status": "NON-MOOT — NO PROVENANCE"
+    },
+    {
+      "label": "Argon",
+      "organization": "Google",
+      "available_evidence": "Product lead discussed existing internal team usage; reported internal checkpoint aliases.",
+      "origin_employee_identified": false,
+      "original_name_discovery_document_identified": false,
+      "status": "NON-MOOT — NO PROVENANCE"
+    },
+    {
+      "label": "Carbon",
+      "organization": "Google",
+      "available_evidence": "Named model and documented downstream model lineage.",
+      "origin_employee_identified": false,
+      "original_name_discovery_document_identified": false,
+      "status": "NON-MOOT — NO PROVENANCE"
+    },
+    {
+      "label": "Hydrogen",
+      "organization": "Google",
+      "available_evidence": "Named model and adaptation of Carbon documented.",
+      "origin_employee_identified": false,
+      "original_name_discovery_document_identified": false,
+      "status": "NON-MOOT — NO PROVENANCE"
+    },
+    {
+      "label": "Neon",
+      "organization": "Google",
+      "available_evidence": "Named model and chemistry-themed demonstration documented.",
+      "origin_employee_identified": false,
+      "original_name_discovery_document_identified": false,
+      "status": "NON-MOOT — NO PROVENANCE"
+    }
+  ],
+  "distinct_antecedent": {
+    "label": "Gemini (family name, not chemical model codenames)",
+    "known_proposer": "Jeff Dean",
+    "source": "https://blog.google/innovation-and-ai/products/google-gemini-ai-name-meaning/",
+    "status": "NAMED_PROPOSER_DOCUMENTED",
+    "limitation": "This does not establish who named Argon/Carbon/Neon/Hydrogen."
+  },
+  "conceptual_application": "In a dead-internet / simulation-theory study, retain missing naming provenance as a live unresolved origin question. No named originating person means organizational assertions remain insufficient to close source ancestry. This is an evidentiary gap rather than proof of simulation or misconduct.",
+  "preceding_evidence": "evidence/external-naming-origins-v23-2026-11-23.json",
+  "correction": "Prior anonymous-case-study interpretation was too broad. The user wanted to classify absent original human source attribution, not strip all case names from the analysis."
+}
