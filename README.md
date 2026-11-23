@@ -88,3 +88,7 @@ Date-partitioned GitHub search enumerated **2,166 distinct public repositories**
 - **Unknown:** specific individual/meeting approving Mythos or each chemical element, exact creation date of name candidates, rationale for Google atomic numbers, whether source documents were ever seen, and actual training data inclusion. Public names, shared terms and later publication chronology do **not** establish appropriation.
 
 Earlier v2.0/v2.1 numerical congruences are retained as observations but are **not** evidence of naming intent.
+
+## NON-MOOT · NO PROVENANCE (naming decision origins)
+
+[Attribution gate](./evidence/non-moot-no-provenance-naming-gate-2026-11-23.json) classifies Mythos, Argon, Carbon, Hydrogen and Neon naming origins as **NON-MOOT** while the original proposer/discoverer, dated proposal and attributable rationale are undocumented. Official company-level explanations remain recorded but do not automatically close individual provenance. This is an unresolved evidence requirement, **not** an accusation or proof of transfer.
