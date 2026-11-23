@@ -1,0 +1,53 @@
+{
+  "schema": "root0.gemini.repo-verification-final/1",
+  "date": "2026-11-23",
+  "status": "SOURCE_LOCATIONS_VERIFIED",
+  "sources": {
+    "index": "https://github.com/DavidWise01/ud0/blob/main/the-index.html",
+    "index_sha": "b5effdd3b3a728027904371a7a2e8373879468ff",
+    "git_tree": {
+      "url": "https://api.github.com/repos/DavidWise01/ud0/git/trees/main?recursive=1",
+      "sha": "d705d20f515fe7c07950439c2d1d06dfda96cb5e",
+      "truncated": false,
+      "files": 3396
+    },
+    "original_match_report": "evidence/sphere-source-verification-2026-11-23.json",
+    "resolved_exception": {
+      "catalog_url": "https://davidwise01.github.io/ud0/world2/../the-4096.html",
+      "url_normalization": "/ud0/world2/../the-4096.html → /ud0/the-4096.html",
+      "repo_path": "the-4096.html",
+      "verified_blob_sha": "6cd5c2bc3e0cc235abe3e1e844f5e2ca679fafef",
+      "status": "VERIFIED_AFTER_NORMALIZING_PARENT_SEGMENT"
+    }
+  },
+  "statistics": {
+    "catalog_entries": 4184,
+    "distinct_catalog_urls": 4181,
+    "project_root_links": 2054,
+    "distinct_project_repo_candidates": 2050,
+    "confirmed_distinct_project_repositories": 2050,
+    "nested_ud0_links": 2130,
+    "nested_ud0_file_locations_verified": 2130,
+    "all_source_locations_verified": 4184,
+    "account_public_repository_inventory": 2166,
+    "account_repositories_not_present_as_project_roots": 116,
+    "external_account_crossing": "https://github.com/rgiskard01-fiddler/the-crossing"
+  },
+  "interpretation": {
+    "conceptual": "User's world model: each sphere denotes one meaningful authored conceptual world.",
+    "hosting": "GitHub project-root links correspond to 2050 existing distinct project repos; 2130 index entries are source files inside UD0, not independent repos.",
+    "source_lineage": "A project-root repo may also appear in the five-world index; nested worlds share one Git repository. Count unique ancestry before evaluating independent corroboration.",
+    "date_coverage": "GitHub repository search partitioned by creation dates 2026-01-01 through 2026-11-23, plus explicit `created:<2026-01-01` query returned zero. Public repos only.",
+    "limitations": [
+      "Source existence verified; website HTTP 200, JS runtime, images, feature completion and independent deployment were not exhaustively checked.",
+      "One index URL occurs four times, resulting in 4181 unique links from 4184 entries.",
+      "The two GitHub identities are connected by the-crossing's declared intended hosting lineage; do not interpret as two independent external origin witnesses.",
+      "The 116 additional repos do not appear as project-root entries in this version of the master index, but may have other nested or later links."
+    ]
+  },
+  "next_checks": [
+    "Test live Pages reachability systematically without claiming production behavior for source-only checks.",
+    "Resolve whether the 116 other repos should be linked in the index.",
+    "Derive a content-level rather than name-only world-to-capability trace."
+  ]
+}
