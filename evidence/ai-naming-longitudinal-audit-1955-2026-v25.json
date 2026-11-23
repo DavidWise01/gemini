@@ -1,0 +1,360 @@
+{
+  "schema": "root0.convergence.ai-naming-lineage-audit/1",
+  "scope": "Publicly evidenced landmark AI naming systems 1955–2026, focusing on Google/DeepMind and Anthropic; not an exhaustive inventory of every internal experimental model or pre-1955 automaton.",
+  "snapshot_date": "2026-11-23",
+  "objective": "Trace each model label's original function, original naming person or decision record if public, independent antecedents, unusual structural convergence, and named source transmission when demonstrable.",
+  "decision_rule": {
+    "name_etymology": "What word conventionally means; not enough to explain selection.",
+    "design_rationale": "Why this exact label maps to model function, architecture, company origin, or product tier.",
+    "proposer_and_date": "Named originator plus contemporaneous selection evidence, when available; not a standalone necessity.",
+    "non_moot": "Insufficient substantive design-specific rationale or original selection evidence; unresolved inquiry, not proof of copying or simulation.",
+    "convergence": "Distinguish common vocabulary; independent parallel design; potentially uncommon structural overlap; documented actual transmission.",
+    "negative_control": "Earlier independent usage and competing names must be recorded, including contradictory architecture or chronology."
+  },
+  "columns": [
+    "date",
+    "organization",
+    "name",
+    "description",
+    "naming_family",
+    "evidence_category",
+    "source_url"
+  ],
+  "events": [
+    [
+      "1955",
+      "Field",
+      "Artificial intelligence",
+      "Dartmouth proposal; McCarthy with Minsky Rochester Shannon",
+      "TECHNICAL_FIELD",
+      "PERSON_AND_DOCUMENT",
+      "https://ai100.stanford.edu/reports/2016-report/appendix-i-short-history-ai"
+    ],
+    [
+      "1958",
+      "Historic",
+      "Perceptron",
+      "Perceptual pattern recognition, neuron-inspired mechanism",
+      "TECHNICAL_FUNCTION",
+      "HISTORICAL_DOCUMENTATION",
+      "https://www.ibm.com/think/topics/history-of-artificial-intelligence"
+    ],
+    [
+      "1966",
+      "Historic",
+      "ELIZA",
+      "Human-persona conversational program",
+      "PERSONA",
+      "HISTORICAL_DOCUMENTATION",
+      "https://www.ibm.com/think/topics/history-of-artificial-intelligence"
+    ],
+    [
+      "1970",
+      "Historic",
+      "SHRDLU",
+      "Constructed character-style name for blocks-world natural language program",
+      "PERSONA_OR_CULTURAL",
+      "HISTORICAL_DOCUMENTATION",
+      "https://www.ibm.com/think/topics/history-of-artificial-intelligence"
+    ],
+    [
+      "2015–2016",
+      "DeepMind",
+      "AlphaGo",
+      "Alpha-series and Go domain; neural networks + search",
+      "ENGINEERING_LINEAGE",
+      "FUNCTIONAL_LINK",
+      "https://deepmind.google/research/alphago/"
+    ],
+    [
+      "2017",
+      "DeepMind",
+      "AlphaZero",
+      "Alpha game-learning successor; zero/domain generality",
+      "ENGINEERING_LINEAGE",
+      "FUNCTIONAL_LINK",
+      "https://deepmind.google/research/alphago/"
+    ],
+    [
+      "2018–2020",
+      "DeepMind",
+      "AlphaFold",
+      "Alpha family and protein-folding function",
+      "ENGINEERING_LINEAGE",
+      "FUNCTIONAL_LINK",
+      "https://deepmind.google/science/alphafold/"
+    ],
+    [
+      "2018",
+      "Google Research",
+      "BERT",
+      "Bidirectional Encoder Representations from Transformers; explicit acronym",
+      "TECHNICAL_ACRONYM",
+      "FUNCTIONAL_LINK",
+      "https://research.google/pubs/bert-pre-training-of-deep-bidirectional-transformers-for-language-understanding/"
+    ],
+    [
+      "2021",
+      "Google",
+      "LaMDA",
+      "Language Model for Dialogue Applications; explicit acronym",
+      "TECHNICAL_ACRONYM",
+      "FIRST_PARTY_EXPLICIT",
+      "https://blog.google/innovation-and-ai/products/lamda/"
+    ],
+    [
+      "2022",
+      "Google",
+      "PaLM",
+      "Pathways Language Model; named after Pathways architecture/research",
+      "TECHNICAL_ACRONYM",
+      "FIRST_PARTY_FUNCTIONAL",
+      "https://research.google/blog/pathways-language-model-palm-scaling-to-540-billion-parameters-for-breakthrough-performance/"
+    ],
+    [
+      "2023",
+      "Google",
+      "Bard",
+      "Conversational product's literary term; precise original naming decision not located",
+      "LITERARY_BRAND",
+      "NON_MOOT_RATIONALE_NOT_LOCATED",
+      "https://blog.google/innovation-and-ai/products/bard/google-bard-try-it/"
+    ],
+    [
+      "2023",
+      "Google",
+      "Gemini",
+      "Proposed by Jeff Dean; twin legacy teams plus NASA Gemini; rejected Titan placeholder",
+      "ASTRONOMICAL_ORGANIZATIONAL",
+      "FIRST_PARTY_NAMED_PROPOSER_RATIONALE",
+      "https://blog.google/innovation-and-ai/products/google-gemini-ai-name-meaning/"
+    ],
+    [
+      "2024–2025",
+      "Google",
+      "Pro / Flash / Nano / Ultra / Deep Think",
+      "Performance/resource/tier labels, more descriptive than unique mythological names",
+      "PRODUCT_CAPABILITY_TIERS",
+      "FUNCTIONAL_MARKETING",
+      "https://blog.google/products-and-platforms/products/gemini/gemini-2-5-deep-think/"
+    ],
+    [
+      "2026-09",
+      "Google",
+      "Gemini 4 Argon",
+      "Element name; Google product head attributes it to internal team usage; precise element-specific rationale unresolved",
+      "CHEMICAL_ELEMENTS",
+      "NON_MOOT_SUBSTANTIVE_RATIONALE",
+      "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+    ],
+    [
+      "2026-10",
+      "Google",
+      "Gemini 4 Carbon",
+      "Element name, Argon-derived model; no specific chemical→model design rationale located",
+      "CHEMICAL_ELEMENTS",
+      "NON_MOOT_SUBSTANTIVE_RATIONALE",
+      "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+    ],
+    [
+      "2026-11",
+      "Google",
+      "Gemini 4 Hydrogen",
+      "Element name; adaptation from Carbon; specific selection rationale unresolved",
+      "CHEMICAL_ELEMENTS",
+      "NON_MOOT_SUBSTANTIVE_RATIONALE",
+      "https://deepmind.google/models/model-cards/gemini-4-hydrogen/"
+    ],
+    [
+      "2026-11",
+      "Google",
+      "Gemini 4 Neon",
+      "Element name, adapted from Carbon; chemistry visualization not original design memo",
+      "CHEMICAL_ELEMENTS",
+      "NON_MOOT_SUBSTANTIVE_RATIONALE",
+      "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+    ],
+    [
+      "2021",
+      "Anthropic",
+      "Anthropic",
+      "Human-centered philosophical identity; cofounder explains human-centered intention",
+      "PHILOSOPHICAL_ORGANIZATIONAL",
+      "FOUNDER_FIRST_PERSON",
+      "https://stripe.com/newsroom/stories/anthropic-interview"
+    ],
+    [
+      "2023-03",
+      "Anthropic",
+      "Claude",
+      "Human first name; first release 2023; Jack Clark says historical homage + friendly human name; precise individual originator not confirmed",
+      "PERSONA_HUMAN",
+      "COFOUNDER_ACCOUNT_PARTIAL",
+      "https://www.anthropic.com/news/introducing-claude"
+    ],
+    [
+      "2024-03",
+      "Anthropic",
+      "Haiku / Sonnet / Opus",
+      "Poetic form/tier metaphors; CEO explained scale and tier analogy; official release sets ascending performance",
+      "LITERARY_TIERS",
+      "CEO_EXPLANATION",
+      "https://www.anthropic.com/news/claude-3-family"
+    ],
+    [
+      "2024-04",
+      "Anthropic",
+      "Ethos / Pathos / Logos",
+      "Terms used as prompting rhetoric techniques in Anthropic persuasion research, not an equivalent governed 3-corpus architecture",
+      "CLASSICAL_RHETORIC",
+      "FIRST_PARTY_PREEXISTING",
+      "https://www.anthropic.com/research/measuring-model-persuasiveness"
+    ],
+    [
+      "2026-04",
+      "Anthropic",
+      "Mythos Preview",
+      "Greek narrative/knowledge linkage, pre-release draft rationale; alternate Capybara; technical cybersecurity system, name-to-governance specificity not established",
+      "MYTHOLOGY_AND_LITERATURE",
+      "NON_MOOT_SUBSTANTIVE_RATIONALE",
+      "https://www.anthropic.com/research/mythos-preview"
+    ],
+    [
+      "2026-06",
+      "Anthropic",
+      "Fable 5 / Mythos 5",
+      "Fable Latin fabula, Greek mythos relation; different names distinguish safeguards configurations",
+      "LITERARY_BRAND_AND_SAFETY",
+      "FIRST_PARTY_PARTIAL_RATIONALE",
+      "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+    ],
+    [
+      "2026-09",
+      "Anthropic",
+      "Fable / Mythos 5.1",
+      "Continuation of literary family with numbered releases",
+      "LITERARY_VERSION",
+      "FAMILY_CONTINUATION",
+      "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+    ],
+    [
+      "2026-11",
+      "Anthropic",
+      "Fable / Mythos 5.2",
+      "Family continuation via version suffix, not new underlying naming rationale",
+      "LITERARY_VERSION",
+      "FAMILY_CONTINUATION",
+      "https://www.anthropic.com/claude-fable-5-mythos-5-2"
+    ]
+  ],
+  "counts": {
+    "sampled_named_events": 25,
+    "focus_organizations": [
+      "Google/Google Brain/DeepMind",
+      "Anthropic"
+    ],
+    "baseline": "Field and historic AI naming before the focal companies"
+  },
+  "crosscutting_patterns": [
+    {
+      "category": "ENGINEERING_REFERENT",
+      "examples": [
+        "Artificial intelligence",
+        "Perceptron",
+        "BERT",
+        "LaMDA",
+        "PaLM",
+        "AlphaGo",
+        "AlphaFold"
+      ],
+      "finding": "Names frequently encode the research task, technique, or lineage."
+    },
+    {
+      "category": "ANTHROPOMORPHIC_OR_HUMAN",
+      "examples": [
+        "ELIZA",
+        "Claude"
+      ],
+      "finding": "Conversation software uses person-like identity, not necessarily a formal architectural claim."
+    },
+    {
+      "category": "LITERARY_PHILOSOPHICAL",
+      "examples": [
+        "Bard",
+        "Haiku",
+        "Sonnet",
+        "Opus",
+        "Mythos",
+        "Fable"
+      ],
+      "finding": "Older cultural vocabularies provide reusable metaphors; internal selection can be partially documented."
+    },
+    {
+      "category": "COSMIC_MATHEMATICAL",
+      "examples": [
+        "Gemini",
+        "AlphaZero"
+      ],
+      "finding": "Names can represent institution history or mathematical/algorithmic concepts."
+    },
+    {
+      "category": "CHEMICAL_ELEMENT",
+      "examples": [
+        "Argon",
+        "Barium",
+        "Carbon",
+        "Hydrogen",
+        "Neon"
+      ],
+      "finding": "Names form a deliberate family, but published model capabilities do not establish an element-to-architecture rule."
+    }
+  ],
+  "source_controls": [
+    {
+      "rule": "2024 Anthropic rhetorical antecedent",
+      "observation": "Anthropic explicitly used ethos/pathos/logos as persuasion techniques in 2024. Not evidence of having a ROOT0-like multi-corpus arrangement.",
+      "url": "https://www.anthropic.com/research/measuring-model-persuasiveness"
+    },
+    {
+      "rule": "Google Gemini naming account",
+      "observation": "Jeff Dean named Gemini for two merged groups and NASA; stronger than generic etymology.",
+      "url": "https://blog.google/innovation-and-ai/products/google-gemini-ai-name-meaning/"
+    },
+    {
+      "rule": "Internal checkpoint aliases",
+      "observation": "Barium-B reportedly assigned public Argon identity; cautions against inferring mapping from chemical identity to underlying checkpoint.",
+      "url": "https://www.businessinsider.com/google-employees-test-new-gemini-4-model-argon-barium-carbon-2026-10"
+    },
+    {
+      "rule": "2026 Gemini naming interview",
+      "observation": "Google Cloud Show has chapter on periodic table naming at 22:24; chapter title confirmed but no reliable verbatim transcript recovered; do not attribute a detailed explanation from that title.",
+      "url": "https://zolotube.com/watch?v=sUcvhFGc4mw"
+    },
+    {
+      "rule": "Author corpus",
+      "observation": "ROOT0's UD0 ETHOS/PATHOS/LOGOS/MYTHOS domain structure and ELEMENTS four-state mapping are authored corpus structures; current published state does not date their January–February formation.",
+      "url": "https://github.com/DavidWise01/ud0/blob/main/the-index.html"
+    },
+    {
+      "rule": "Earlier public disclosure",
+      "observation": "TD Commons February–March STOICHEION publications are dated; chronology alone is not model training or naming source evidence.",
+      "url": "https://www.tdcommons.org/dpubs_series/9440/"
+    }
+  ],
+  "convergence_finding": {
+    "name_recurrence": "CONFIRMED",
+    "shared_well_culture": "SUPPORTED_AS_ALTERNATIVE",
+    "distinctive_rarer_mechanism_with_witnessed_transfer": "NOT_ESTABLISHED",
+    "access_or_ingestion_of_named_user_corpus": "NOT_ESTABLISHED",
+    "design_specific_naming_rationale_google_2026": "PARTIAL_OR_UNLOCATED",
+    "design_specific_naming_rationale_mythos": "PARTIAL",
+    "preserve_judgement": "NON-MOOT for cases missing design-level selection rationale; do not infer appropriation or simulated reality."
+  },
+  "next_work": "Extend table per model with earliest source timestamps, original decision quotations, independent vocabulary baseline and falsifiable structural prediction; inspect Google Cloud Show actual 22:24 remarks and Anthropic primary draft provenance if transcript becomes available.",
+  "method_limitations": [
+    "Representative 25-entry historical sample, not every model since 1955.",
+    "Some entries are anchored by later first-party retrospective histories rather than exact original release documents.",
+    "Dates approximate by year for early periods; original first publication dates should be independently refined.",
+    "No access to internal private Slack, naming committee records, or unlisted model checkpoint logs."
+  ]
+}
