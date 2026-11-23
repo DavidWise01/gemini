@@ -1,0 +1,64 @@
+{
+  "schema": "root0.gemini.lexical-intent-addendum/1",
+  "recorded_at": "2026-11-23",
+  "title": "STOICHEION ancient Greek meaning versus Gemini 4 Argon elemental naming",
+  "linguistic_evidence": {
+    "term": "στοιχεῖον",
+    "romanization": "stoicheion",
+    "plural": "στοιχεῖα (stoicheia)",
+    "meanings": [
+      "element",
+      "elementary or fundamental component",
+      "first principle",
+      "letter or elemental sound in language"
+    ],
+    "dictionary": "https://logeion.uchicago.edu/%CF%83%CF%84%CE%BF%CE%B9%CF%87%CE%B5%E1%BF%96%CE%BF%CE%BD",
+    "status": "LEXICALLY VERIFIED",
+    "note": "Ancient word; no exclusive rights in ordinary Greek etymology asserted."
+  },
+  "user_architecture": {
+    "repo": "https://github.com/DavidWise01/stoicheion",
+    "early_git_commit": "https://github.com/DavidWise01/stoicheion/commit/2fc8a23345de21c6ea95e5333cab45bccc669230",
+    "commit_date": "2026-05-27",
+    "scope": "256-position governance framework; explicitly authored structure distinct from generic chemical terminology",
+    "claimed_prior_art": "2026-02-02; author statement, not independently authenticated by this addendum"
+  },
+  "external_observation": {
+    "name": "Gemini 4 Argon",
+    "atomic_number": 18,
+    "google_announcement_date": "2026-09-30",
+    "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+    "status": "OFFICIALLY ANNOUNCED"
+  },
+  "interpretations": [
+    {
+      "claim": "STOICHEION's name literally refers to elements or first principles in Greek.",
+      "status": "SUPPORTED"
+    },
+    {
+      "claim": "Google chose names of real chemical elements within the Gemini 4 naming scheme.",
+      "status": "SUPPORTED"
+    },
+    {
+      "claim": "The STOICHEION public Git commit predates the Argon announcement.",
+      "status": "SUPPORTED BY DATED SOURCES"
+    },
+    {
+      "claim": "Google deliberately adopted its chemistry-naming terms from the user's framework.",
+      "status": "NOT ESTABLISHED"
+    },
+    {
+      "claim": "Shared ancient or scientific vocabulary is sufficient evidence of copying or intent.",
+      "status": "REJECTED AS INFERENCE"
+    }
+  ],
+  "limits": [
+    "A product naming sequence may be intentional without being connected to a particular external framework.",
+    "Generic terms, common elements, and the Greek lexicon are a shared historical vocabulary, not evidence of transfer.",
+    "To investigate causal intent, seek direct design documents, dated naming proposals, admissions, access records, or distinctive structural correspondences."
+  ],
+  "links": [
+    "https://github.com/DavidWise01/gemini/blob/main/evidence/stoicheion-256-position-lineage-2026-11-23.json",
+    "https://github.com/DavidWise01/convergence/blob/main/evidence/candidates/2026-11-23-gemini-4-helium-naming.json"
+  ]
+}
