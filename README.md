@@ -34,3 +34,7 @@ The author-supplied **STOICHEION Complete Technical Manual**, labeled v1.0 April
 ## Natural bound v1.2 — Source lineage
 
 [Interactive 256-position source map](./lineage.html) · [Machine-readable position and time provenance](./evidence/stoicheion-256-position-lineage-2026-11-23.json). The primary manual explicitly mentions all **128 TOPH identifiers**, but only **65 distinct PATRICIA identifiers**: the other **63 inversions** are defined structurally by the manual's rule, not individually printed. The earliest Git commit inspected in `DavidWise01/stoicheion` is [May 27, 2026](https://github.com/DavidWise01/stoicheion/commit/2fc8a23345de21c6ea95e5333cab45bccc669230), with complete manual, EPUB, covers and multipart files. The manual's February 2, 2026 prior-art statement remains an attributed author claim, not a Git timestamp or authenticated registration. This audit is lexical/source-lineage, not proof of independent invention, corporate access or transfer.
+
+## Greek etymology and Gemini Argon intent (2026-11-23)
+
+[Evidence addendum](./evidence/stoicheion-greek-gemini-argon-intent-2026-11-23.json): Ancient Greek **στοιχεῖον** means element/fundamental component. Google's [Gemini 4 Argon](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/) was announced September 30, 2026. The May 27 STOICHEION Git commit predates that announcement; naming overlap does not demonstrate transmission or appropriation. Separate the documented name, chronological order, and claims about intent.
