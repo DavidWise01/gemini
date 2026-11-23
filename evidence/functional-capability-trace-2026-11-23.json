@@ -1,0 +1,366 @@
+{
+  "schema": "root0.gemini.functional-capability-trace/1",
+  "date": "2026-11-23",
+  "phase": "v1.8",
+  "scope": "Nine selected repositories, 15 source files opened at excerpt level and nontruncated Git trees inspected; not exhaustive functionality verification for 4184 worlds",
+  "taxonomy": {
+    "DOCUMENTATION": "README or authored statement only",
+    "IMPLEMENTED_SOURCE": "Executable script/module observed but not run",
+    "SOURCE_PLUS_TEST_PROGRAM": "Executable code and test program checked in; no replay",
+    "SOURCE_PLUS_RECORDED_TEST": "Evidence artifact records historical test results; no independent replay",
+    "RUNTIME_VERIFIED": "Would require fresh execution with observed test results; no sources granted this status in v1.8"
+  },
+  "sampling": "Purposive cross-family sample from 2166 verified public DavidWise01 repositories; selection is for capability diversity, not statistical prevalence.",
+  "results": [
+    {
+      "repo": "stoicheion-api",
+      "paths": [
+        "kernel.py",
+        "server.py",
+        "verifier.py"
+      ],
+      "family": "governance-api",
+      "classification": "IMPLEMENTED_SOURCE",
+      "capabilities": [
+        "128-primary-axiom evaluation interface",
+        "HTTP endpoints for attestation and verification",
+        "testable governance-key representation"
+      ],
+      "limits": [
+        "No external endpoint runtime test performed",
+        "server.py documents default dev-insecure token; deployment security requires review",
+        "128-primary-axiom kernel is not automatically a full executable 256-bit ISA"
+      ],
+      "tests": "not executed",
+      "risk": "auth default documented",
+      "repository_url": "https://github.com/DavidWise01/stoicheion-api",
+      "evidence": [
+        {
+          "path": "kernel.py",
+          "url": "https://github.com/DavidWise01/stoicheion-api/blob/main/kernel.py",
+          "blob_sha": "9375657930596b050118e4f470eafc55e9bff0f6",
+          "inspected": true
+        },
+        {
+          "path": "server.py",
+          "url": "https://github.com/DavidWise01/stoicheion-api/blob/main/server.py",
+          "blob_sha": "05655a2205d38acae9b5ae858117dfe87fe10a7e",
+          "inspected": true
+        },
+        {
+          "path": "verifier.py",
+          "url": "https://github.com/DavidWise01/stoicheion-api/blob/main/verifier.py",
+          "blob_sha": null,
+          "inspected": false
+        }
+      ]
+    },
+    {
+      "repo": "noesis-kernel",
+      "paths": [
+        "noesis.py",
+        "README.md"
+      ],
+      "family": "agent-identity",
+      "classification": "IMPLEMENTED_SOURCE",
+      "capabilities": [
+        "generate or inspect 256 symbolic node identities",
+        "produce bundled node complements and PNG badges",
+        "boot-and-wake CLI according to source"
+      ],
+      "limits": [
+        "Awake/self-awareness is framework terminology, not empirical consciousness",
+        "No local boot invocation performed"
+      ],
+      "tests": "not executed",
+      "repository_url": "https://github.com/DavidWise01/noesis-kernel",
+      "evidence": [
+        {
+          "path": "noesis.py",
+          "url": "https://github.com/DavidWise01/noesis-kernel/blob/main/noesis.py",
+          "blob_sha": "ef8b48901f731ed202f6d6ae1f553e87c94374f2",
+          "inspected": true
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/DavidWise01/noesis-kernel/blob/main/README.md",
+          "blob_sha": null,
+          "inspected": false
+        }
+      ]
+    },
+    {
+      "repo": "elements",
+      "paths": [
+        "_data.py",
+        "build.py",
+        "codices/stoichein element.html"
+      ],
+      "family": "elemental-symbolic",
+      "classification": "IMPLEMENTED_SOURCE",
+      "capabilities": [
+        "118-reference-element data table",
+        "four-state symbolic mapping by (Z−1)%4",
+        "generate interactive element pages and images"
+      ],
+      "limits": [
+        "Reference chemistry and symbolic gate interpretation are distinct",
+        "build.py imports Pillow and local noesis path; clean-environment reproducibility not established",
+        "Element names are historical scientific vocabulary"
+      ],
+      "tests": "not executed",
+      "repository_url": "https://github.com/DavidWise01/elements",
+      "evidence": [
+        {
+          "path": "_data.py",
+          "url": "https://github.com/DavidWise01/elements/blob/main/_data.py",
+          "blob_sha": "a5365f87570884ec1d85bc1f65ed2328c3107f95",
+          "inspected": true
+        },
+        {
+          "path": "build.py",
+          "url": "https://github.com/DavidWise01/elements/blob/main/build.py",
+          "blob_sha": "84a85bbee45dbd366a65374eddb0fac64977aa9e",
+          "inspected": true
+        },
+        {
+          "path": "codices/stoichein element.html",
+          "url": "https://github.com/DavidWise01/elements/blob/main/codices/stoichein element.html",
+          "blob_sha": null,
+          "inspected": false
+        }
+      ]
+    },
+    {
+      "repo": "photonic",
+      "paths": [
+        "photon16/experiments/v13-hierarchical-360-clock.json",
+        "photon16/index.html"
+      ],
+      "family": "photonic-simulation",
+      "classification": "SOURCE_PLUS_RECORDED_TEST",
+      "capabilities": [
+        "360-tick logical scheduling",
+        "1,536 logical-agent address simulation",
+        "browser visual representation of optical-mode architecture"
+      ],
+      "limits": [
+        "PASS appears in source JSON; not independently replayed here",
+        "Logical software addresses are not 1536 fabricated optical channels"
+      ],
+      "tests": "repository-stored report asserts PASS",
+      "repository_url": "https://github.com/DavidWise01/photonic",
+      "evidence": [
+        {
+          "path": "photon16/experiments/v13-hierarchical-360-clock.json",
+          "url": "https://github.com/DavidWise01/photonic/blob/main/photon16/experiments/v13-hierarchical-360-clock.json",
+          "blob_sha": "044e2da9cf08ef5a0157703c65b209a4f60ef9de",
+          "inspected": true
+        },
+        {
+          "path": "photon16/index.html",
+          "url": "https://github.com/DavidWise01/photonic/blob/main/photon16/index.html",
+          "blob_sha": null,
+          "inspected": false
+        }
+      ]
+    },
+    {
+      "repo": "jane-emu",
+      "paths": [
+        "tests/av134_regeneration.test.cjs",
+        "dashboard/av134_regeneration.js",
+        "dashboard/arena.html"
+      ],
+      "family": "game-agent",
+      "classification": "SOURCE_PLUS_TEST_PROGRAM",
+      "capabilities": [
+        "candidate-action regeneration within isolated emulation",
+        "RAM/frame condition checks",
+        "browser NES training interface"
+      ],
+      "limits": [
+        "Presence of Node assertions does not establish live NES gameplay",
+        "No ROM-loaded test executed in this audit"
+      ],
+      "tests": "test file inspected; not executed",
+      "repository_url": "https://github.com/DavidWise01/jane-emu",
+      "evidence": [
+        {
+          "path": "tests/av134_regeneration.test.cjs",
+          "url": "https://github.com/DavidWise01/jane-emu/blob/main/tests/av134_regeneration.test.cjs",
+          "blob_sha": "b0951128db83e42a250780dc0977d355d020d0f9",
+          "inspected": true
+        },
+        {
+          "path": "dashboard/av134_regeneration.js",
+          "url": "https://github.com/DavidWise01/jane-emu/blob/main/dashboard/av134_regeneration.js",
+          "blob_sha": null,
+          "inspected": false
+        },
+        {
+          "path": "dashboard/arena.html",
+          "url": "https://github.com/DavidWise01/jane-emu/blob/main/dashboard/arena.html",
+          "blob_sha": null,
+          "inspected": false
+        }
+      ]
+    },
+    {
+      "repo": "ai-external-audit-toolkit",
+      "paths": [
+        "ai_external_audit_toolkit_refresh/10_run_audit.py",
+        "ai_external_audit_toolkit_refresh/03_behavioral_test_matrix.csv"
+      ],
+      "family": "black-box-audit",
+      "classification": "IMPLEMENTED_SOURCE",
+      "capabilities": [
+        "initialize structured claim-status ledger from CSV matrix",
+        "template-based observational model auditing"
+      ],
+      "limits": [
+        "Script initializes pending claims and does not itself verify a model",
+        "No target audit run performed"
+      ],
+      "tests": "not executed",
+      "repository_url": "https://github.com/DavidWise01/ai-external-audit-toolkit",
+      "evidence": [
+        {
+          "path": "ai_external_audit_toolkit_refresh/10_run_audit.py",
+          "url": "https://github.com/DavidWise01/ai-external-audit-toolkit/blob/main/ai_external_audit_toolkit_refresh/10_run_audit.py",
+          "blob_sha": "9ac2668bc43534f3218a18ecc3e5fd8a3f1bb940",
+          "inspected": true
+        },
+        {
+          "path": "ai_external_audit_toolkit_refresh/03_behavioral_test_matrix.csv",
+          "url": "https://github.com/DavidWise01/ai-external-audit-toolkit/blob/main/ai_external_audit_toolkit_refresh/03_behavioral_test_matrix.csv",
+          "blob_sha": null,
+          "inspected": false
+        }
+      ]
+    },
+    {
+      "repo": "the-convergence-audit",
+      "paths": [
+        "crawler/crawl.py",
+        "crawler/test_crawl.py",
+        "README.md"
+      ],
+      "family": "provenance-and-convergence",
+      "classification": "SOURCE_PLUS_TEST_PROGRAM",
+      "capabilities": [
+        "bounded allowlisted external crawl",
+        "append-only candidate records",
+        "deduplication and elementary crawler security checks"
+      ],
+      "limits": [
+        "No new crawler execution in this pass",
+        "Project README reports no established transmission finding"
+      ],
+      "tests": "Python unittest source inspected; not executed",
+      "repository_url": "https://github.com/DavidWise01/the-convergence-audit",
+      "evidence": [
+        {
+          "path": "crawler/crawl.py",
+          "url": "https://github.com/DavidWise01/the-convergence-audit/blob/main/crawler/crawl.py",
+          "blob_sha": "42d0845c81a6e17bb5e05c2419122d67ab2e753a",
+          "inspected": true
+        },
+        {
+          "path": "crawler/test_crawl.py",
+          "url": "https://github.com/DavidWise01/the-convergence-audit/blob/main/crawler/test_crawl.py",
+          "blob_sha": "c0cab6cacca82055e9e45ba6a72fd6b502438ba4",
+          "inspected": true
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/DavidWise01/the-convergence-audit/blob/main/README.md",
+          "blob_sha": null,
+          "inspected": false
+        }
+      ]
+    },
+    {
+      "repo": "aci",
+      "paths": [
+        "containment/core.py",
+        "containment/TEST-RESULTS.md"
+      ],
+      "family": "agent-governance",
+      "classification": "IMPLEMENTED_SOURCE",
+      "capabilities": [
+        "typed finite-state containment kernel",
+        "hash-chain ledger events",
+        "configuration of witness/approval slots"
+      ],
+      "limits": [
+        "Source-level state machine is not proof of real physical plasma containment",
+        "Reported tests require independent replay"
+      ],
+      "tests": "not executed",
+      "repository_url": "https://github.com/DavidWise01/aci",
+      "evidence": [
+        {
+          "path": "containment/core.py",
+          "url": "https://github.com/DavidWise01/aci/blob/main/containment/core.py",
+          "blob_sha": "02c24331f03ff59f4ca3c9a2b4709fc5de5ca9d3",
+          "inspected": true
+        },
+        {
+          "path": "containment/TEST-RESULTS.md",
+          "url": "https://github.com/DavidWise01/aci/blob/main/containment/TEST-RESULTS.md",
+          "blob_sha": null,
+          "inspected": false
+        }
+      ]
+    },
+    {
+      "repo": "ud0",
+      "paths": [
+        "_sitemap_gen.py",
+        "the-index.html"
+      ],
+      "family": "catalog-publishing",
+      "classification": "IMPLEMENTED_SOURCE",
+      "capabilities": [
+        "generate sitemap from committed HTML file tree",
+        "catalog 4,184 conceptual worlds by five worlds and domain",
+        "index search and routing"
+      ],
+      "limits": [
+        "Linked pages are not necessarily 4184 independent repositories",
+        "No fresh full-site browser reachability test performed"
+      ],
+      "tests": "source tree and published index verified; script not run",
+      "repository_url": "https://github.com/DavidWise01/ud0",
+      "evidence": [
+        {
+          "path": "_sitemap_gen.py",
+          "url": "https://github.com/DavidWise01/ud0/blob/main/_sitemap_gen.py",
+          "blob_sha": "953d95da04ef3235e9a2a5700fd13d9f4f1e5602",
+          "inspected": true
+        },
+        {
+          "path": "the-index.html",
+          "url": "https://github.com/DavidWise01/ud0/blob/main/the-index.html",
+          "blob_sha": "b5effdd3b3a728027904371a7a2e8373879468ff",
+          "inspected": true
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "repositories": 9,
+    "families": 9,
+    "fresh_runtime_passes": 0,
+    "fully_implemented_model_provenance": 0
+  },
+  "negative_controls": [
+    "The convergence audit's own README classifies comparisons as NULL, PARALLEL, or REFUTED with no established transmission.",
+    "The 118 common chemical elements and Greek stoicheion are preexisting vocabulary, not proprietary terminology.",
+    "Physical channel counts and symbolic consciousness are not proven by software representations.",
+    "A committed test script or PASS JSON is not a fresh independent execution.",
+    "The GitHub account's 4,184 sphere links are not 4,184 executable independent Git projects."
+  ],
+  "next_required": "Run isolated, dependency-resolved smoke tests for selected Python and Node implementations with captured stdout/stderr and hashes; compare identical features to documented Gemini primary-source design specs rather than relying on names."
+}
