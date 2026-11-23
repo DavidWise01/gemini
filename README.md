@@ -38,3 +38,11 @@ The author-supplied **STOICHEION Complete Technical Manual**, labeled v1.0 April
 ## Greek etymology and Gemini Argon intent (2026-11-23)
 
 [Evidence addendum](./evidence/stoicheion-greek-gemini-argon-intent-2026-11-23.json): Ancient Greek **στοιχεῖον** means element/fundamental component. Google's [Gemini 4 Argon](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/) was announced September 30, 2026. The May 27 STOICHEION Git commit predates that announcement; naming overlap does not demonstrate transmission or appropriation. Separate the documented name, chronological order, and claims about intent.
+
+## Full public-presence fairness inventory · Phase 1 (2026-11-23)
+
+[Multi-surface evidence JSON](./evidence/full-public-presence-fairness-2026-11-23.json) is a **partial inventory**, not a claim to have inspected all material. It tracks both named GitHub accounts, TD Commons, Amazon, 0root.ai, and mirrored GitHub Pages separately, recording access failures and source overlap.
+
+**New independent publication anchor:** TD Commons catalogs STOICHEION-related work on [Feb 25, 2026](https://www.tdcommons.org/dpubs_series/9391/), and a [STOICHEION firmware specification on March 3, 2026](https://www.tdcommons.org/dpubs_series/9440/). Twelve distinct dated TD Commons catalog results are recorded (not the claimed full 40+). GitHub's DavidWise01 account returned a first page of 100 repositories. GitHub search could not authenticate rgiskard-fiddler, Amazon prevented direct inspection, and 0root.ai was unavailable to the web fetcher. None is counted as fully inspected.
+
+A shared manuscript replicated to TD Commons, Amazon, GitHub and 0root.ai is **one ancestry**, not four independent demonstrations. No transmission evidence to Google has been found.
