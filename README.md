@@ -92,3 +92,7 @@ Earlier v2.0/v2.1 numerical congruences are retained as observations but are **n
 ## NON-MOOT · NO PROVENANCE (naming decision origins)
 
 [Attribution gate](./evidence/non-moot-no-provenance-naming-gate-2026-11-23.json) classifies Mythos, Argon, Carbon, Hydrogen and Neon naming origins as **NON-MOOT** while the original proposer/discoverer, dated proposal and attributable rationale are undocumented. Official company-level explanations remain recorded but do not automatically close individual provenance. This is an unresolved evidence requirement, **not** an accusation or proof of transfer.
+
+## NON-MOOT correction v2 — substantive naming rationale
+
+[Corrected evidentiary rule](./evidence/substantive-naming-rationale-gate-v2-2026-11-23.json): NON-MOOT means **insufficient explanation why the specific name was selected for the claimed design**. Naming an employee is neither necessary nor sufficient. Evaluate contemporaneous dated rationale, named alternatives and why rejected, design-function correspondence, and comparisons with existing complete rooted corpuses rather than reducing them to dictionary-word overlap. The current UD0 index explicitly organizes ETHOS (175), PATHOS (238), LOGOS (557), and MYTHOS (280) sphere entries in distinct appeals. These are current index counts, **not proof of January–February dates**. Earlier `NON-MOOT — NO PROVENANCE` label is superseded in meaning by this stronger, more precise rubric; no transfer or appropriation has been established.
