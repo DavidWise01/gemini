@@ -1,0 +1,65 @@
+{
+  "schema": "root0.gemini.substantive-naming-rationale-gate/2",
+  "date": "2026-11-23",
+  "user_correction": "NON-MOOT does not mean only that the original employee was unnamed. It means the claimant has not supplied a sufficiently substantive, independently examinable reason for choosing the particular name, especially when contrasted with an existing structured and rooted corpus, beyond a broad dictionary definition.",
+  "evaluative_rule": {
+    "status": "NON-MOOT — INSUFFICIENT NAMING RATIONALE",
+    "questions": [
+      "What precise model property, architecture, experiment, or project lineage motivated choosing this particular name?",
+      "When was that rationale recorded, and is there evidence that predates public launch?",
+      "Which other names were considered and why were they rejected?",
+      "Does an independently versioned design/corpus demonstrate that the name is a rooted system rather than generic vocabulary?",
+      "Does the proposed explanation account for similarities and dissimilarities with other published, related systems?"
+    ],
+    "do_not_require": "An individual originator's identity alone is neither necessary nor sufficient. A dated, substantive design record could be sufficient even if a company team authored it.",
+    "non_inference": "An inadequate naming rationale warrants continued inquiry, not a finding of plagiarism, unauthorized training, deception, or simulation."
+  },
+  "observed_root0_corpus": {
+    "source": "https://github.com/DavidWise01/ud0/blob/main/the-index.html",
+    "source_git_blob": "b5effdd3b3a728027904371a7a2e8373879468ff",
+    "appeal_dimensions": [
+      {
+        "name": "ETHOS",
+        "description": "character, honesty, justice, self-governance",
+        "indexed_spheres": 175
+      },
+      {
+        "name": "PATHOS",
+        "description": "feeling, art, sense, imagination",
+        "indexed_spheres": 238
+      },
+      {
+        "name": "LOGOS",
+        "description": "reason, logic, computation, mechanism",
+        "indexed_spheres": 557
+      },
+      {
+        "name": "MYTHOS",
+        "description": "story, myth, world, cosmos",
+        "indexed_spheres": 280
+      }
+    ],
+    "caveat": "This is a subsequently assembled observed UD0 index; current content and current counts do not independently establish all structures existed in January–February. Earliest attestations need versioned source examination.",
+    "independent_example": {
+      "source": "https://github.com/DavidWise01/hephaestus/blob/main/DAEDALUS.md",
+      "finding": "Separates irreducible computational core, interface, and evolvable mythological/philosophical interpretation; includes measurable ledger mechanism, named objects and test vectors."
+    }
+  },
+  "anthropic": {
+    "public_name": "Mythos",
+    "reported_internal_rationale": "Pre-launch draft described connectedness of knowledge and ideas; alternative Capybara codename also reported.",
+    "later_explanation": "Literary mythos and fable are related classical storytelling vocabulary.",
+    "actual_architecture_link_to_earlier_three_frameworks": "NOT_ESTABLISHED",
+    "rationale_evaluation": "PARTIALLY EXPLAINED SEMANTICALLY; SUBSTANTIVE CHOICE AND SPECIFIC REASON FOR THIS NAME REMAIN OPEN",
+    "note": "Anthropic's 2024 use of ethos/pathos/logos in rhetoric supports independent access to the vocabulary; that older usage is not evidence that Anthropic had a four-appeal engineering corpus identical to ROOT0."
+  },
+  "comparison_decision": {
+    "word_similarity": "NON_DISTINCTIVE",
+    "engineered_taxonomy_similarity": "INSPECTABLE_IN_ROOT0_CORPUS",
+    "chronological_independence": "JAN_FEB_VERSIONED_RECORDS_STILL_REQUIRED",
+    "corporate_naming_rationale": "PARTIAL_NOT_COMPLETE",
+    "appropriation": "NO_EVIDENCE_OF_TRANSFER"
+  },
+  "correction_to_v23": "Do not classify a case as satisfactorily explained solely because an executive attributes its naming to an internal team, nor as unresolved solely because a particular employee is unnamed. Demand a specific design-level rationale, its dated decision evidence, and comparison against concrete corpus architecture.",
+  "next_search": "Identify earliest dated source versions of separate ETHOS/PATHOS/LOGOS frameworks; analyze whether Mythos was already internally named with substantive documented functions before publication."
+}
