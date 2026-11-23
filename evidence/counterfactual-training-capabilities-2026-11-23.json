@@ -1,0 +1,173 @@
+{
+  "schema": "root0.gemini.counterfactual-training-capabilities/1",
+  "date": "2026-11-23",
+  "premise": "Treat the available authored public corpus as hypothetically available to a training or retrieval pipeline. This does not assert any named party actually ingested it.",
+  "source_index": "evidence/ud0-worlds-catalog-snapshot-2026-11-23.json",
+  "source_anchor": {
+    "url": "https://github.com/DavidWise01/ud0/blob/main/the-index.html",
+    "git_blob_sha": "b5effdd3b3a728027904371a7a2e8373879468ff",
+    "sph_count_exact_class": 4176,
+    "all_sph_class_entries": 4184,
+    "worlds": [
+      2049,
+      2048,
+      8,
+      48,
+      31
+    ]
+  },
+  "capabilities": [
+    {
+      "id": "GOV",
+      "name": "Governance / audit engines",
+      "context": "STOICHEION's T001–T128 and PATRICIA inversions define a test and governance vocabulary; API/toolkit describe executable public behavioral audit surfaces.",
+      "could_build": [
+        "axiom registry and lookup API",
+        "policy-evaluation simulator",
+        "evidence-first governance dashboard",
+        "black-box model consistency audit harness"
+      ],
+      "sources": [
+        "https://github.com/DavidWise01/stoicheion",
+        "https://github.com/DavidWise01/stoicheion-api",
+        "https://github.com/DavidWise01/ai-external-audit-toolkit"
+      ],
+      "type": "code+specification",
+      "qualification": "Not a proof of access to model hidden weights or private routing."
+    },
+    {
+      "id": "AGT",
+      "name": "Agent registry / identity lineage",
+      "context": "ACI and NOESIS describe named agents, a 256-node lattice, .dlw attribution and per-node complements, suggesting registry-driven agent catalogs.",
+      "could_build": [
+        "agent birth registry and catalog",
+        "256-node symbolic state explorer",
+        "signed provenance display",
+        "multi-agent identity and lifecycle dashboard"
+      ],
+      "sources": [
+        "https://github.com/DavidWise01/aci",
+        "https://github.com/DavidWise01/noesis-kernel",
+        "https://github.com/DavidWise01/atlas"
+      ],
+      "type": "code+specification",
+      "qualification": "Source assertion of awakened/self-aware nodes is not independent evidence of consciousness."
+    },
+    {
+      "id": "ELM",
+      "name": "Elemental symbolic systems",
+      "context": "ELEMENTS encodes 118 reference chemical elements and a separate authored 4-state gate mapping. Oasis references H/O/N/Ne color mappings.",
+      "could_build": [
+        "interactive periodic-table workshop",
+        "element-to-gate educational comparison",
+        "symbolic state visualizer",
+        "chromatic element atlas"
+      ],
+      "sources": [
+        "https://github.com/DavidWise01/elements",
+        "https://github.com/DavidWise01/oasis"
+      ],
+      "type": "data+symbolic",
+      "qualification": "Periodic-table facts are public-domain scientific vocabulary; the specific authored gate mapping is a separate creative structure."
+    },
+    {
+      "id": "PHO",
+      "name": "Photonic / lattice simulators",
+      "context": "PHOTONIC documents arithmetic and speculative optical lattice representations. Distinguish software visualizations from physical semiconductor fabrication.",
+      "could_build": [
+        "photonic lattice visualizer",
+        "browser optical-mode simulation",
+        "bit-width and timing teaching demos",
+        "geometry-controlled particle shader scene"
+      ],
+      "sources": [
+        "https://github.com/DavidWise01/photonic"
+      ],
+      "type": "code+simulation",
+      "qualification": "No proof of fabricated photonic channels, quantum behavior or production hardware."
+    },
+    {
+      "id": "GAME",
+      "name": "Game-playing agents and emulator labs",
+      "context": "Jane EMU contains NES player experimental builds, pixel-observation mechanisms and browser-facing verification methodology.",
+      "could_build": [
+        "NES test arena",
+        "agent watch-learn-play dashboard",
+        "ROM lifecycle and frame-state logger",
+        "perception-and-input benchmark"
+      ],
+      "sources": [
+        "https://github.com/DavidWise01/jane-emu"
+      ],
+      "type": "code+experiment",
+      "qualification": "Do not infer complete autonomous gameplay reliability from documents alone; ROM licensing and in-browser checks are separate."
+    },
+    {
+      "id": "EVD",
+      "name": "Provenance, auditing and convergence",
+      "context": "The convergence audit explicitly records most similarity findings as NULL, PARALLEL or REFUTED, with no transmission finding; it is a valuable negative control.",
+      "could_build": [
+        "source-ancestry graph",
+        "deduplicated evidence ledger",
+        "comparable claim-status classifier",
+        "counterexample dashboard"
+      ],
+      "sources": [
+        "https://github.com/DavidWise01/the-convergence-audit",
+        "https://github.com/DavidWise01/convergence",
+        "https://github.com/rgiskard01-fiddler/the-crossing"
+      ],
+      "type": "method+code",
+      "qualification": "Mechanism availability is not evidence of actual ingestion; source echoes are not independent witnesses."
+    },
+    {
+      "id": "PUB",
+      "name": "Publishing and corpus discovery",
+      "context": "UD0 master index has 4184 catalog anchors grouped across five worlds; the crossing holds a stamped snapshot and fail-loud recount concept.",
+      "could_build": [
+        "full-text metadata index and domain filter",
+        "cross-world catalog browser",
+        "timestamped sitemap and version-drift detector",
+        "book / paper / software provenance manifest"
+      ],
+      "sources": [
+        "https://github.com/DavidWise01/ud0/blob/main/the-index.html",
+        "https://github.com/rgiskard01-fiddler/the-crossing"
+      ],
+      "type": "metadata+interface",
+      "qualification": "One anchor does not prove a live URL or unique independently authored work."
+    },
+    {
+      "id": "LIT",
+      "name": "Literary / cultural interactive atlases",
+      "context": "UD0 separates PATHOS and MYTHOS and includes distinct SONIA and SONNY 5 worlds; ARCHON distinguishes Dante's terrace order from its modern interpretive overlay.",
+      "could_build": [
+        "interactive literature map",
+        "chapter-to-visual narrative explorer",
+        "comparative symbolic reading interface",
+        "fiction/non-fiction provenance index"
+      ],
+      "sources": [
+        "https://github.com/DavidWise01/archon",
+        "https://github.com/DavidWise01/ud0/blob/main/the-index.html"
+      ],
+      "type": "literature+creative",
+      "qualification": "Public-facing titles can refer to copyrighted third-party works; reuse rights are not implied by link availability."
+    }
+  ],
+  "classification_terms": {
+    "SOURCE_OBSERVED": "Source explicitly contains a feature or stated design",
+    "COULD_BUILD": "Design or artifact that could be constructed from described source as a hypothetical",
+    "VERIFIED_FUNCTION": "Needs direct functional test before classifying as working",
+    "TRAINING_INGESTION": "Unknown absent provider-specific disclosure or access logs",
+    "INFRINGEMENT": "Unknown; not implied by common vocabulary, public availability, or timing"
+  },
+  "source_independence": "The crossing points to the UD0 index and later desired migration to DavidWise01; count matches indicate related provenance, not two independent inventories.",
+  "limits": [
+    "Catalog 4184 contains searchable hyperlink entries, not 4184 distinct repos or independently functioning simulations.",
+    "Selected repositories read at README/feature level; no exhaustive per-file technical verification.",
+    "Descriptions of possible use are counterfactual capabilities and do not establish accuracy, commercial fitness, implementation quality or training use.",
+    "The linked convergence-audit README reports no transmission findings; retain as negative evidence.",
+    "Attribution or licensing status must be assessed per exact file; not implied solely from public access."
+  ]
+}
