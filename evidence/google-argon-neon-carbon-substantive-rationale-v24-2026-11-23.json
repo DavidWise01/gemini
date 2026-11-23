@@ -1,0 +1,149 @@
+{
+  "schema": "root0.gemini.three-element-substantive-name-rationale/1",
+  "date": "2026-11-23",
+  "version": "2.4",
+  "target_names": [
+    "Argon",
+    "Neon",
+    "Carbon"
+  ],
+  "purpose": "Apply the same NON-MOOT / substantive design-rationale test as Mythos to Google element codenames, including authored ROOT0 structures rather than lexical commonality.",
+  "standard": {
+    "needed": "A reason grounded in the specific design for why this exact element was chosen, preferably documented at naming time with alternatives and traceable date; employee identity alone insufficient.",
+    "non_moot": "Question remains unresolved, not demonstrated misappropriation or simulation.",
+    "comparison": "Separate documented model functions, chemical metaphor, original naming decision, public user-corpus structure, and possible transmission."
+  },
+  "google": {
+    "sources": [
+      {
+        "kind": "first_person_product_lead",
+        "url": "https://arcmira.com/watch?v=ofJ0ZzVDAD4",
+        "timestamp": "2:47",
+        "claim": "Tulsee Doshi says Argon comes from internal team naming and internal use of the element term, not why this element was chosen."
+      },
+      {
+        "kind": "reported_internal_documents",
+        "url": "https://www.businessinsider.com/google-employees-test-new-gemini-4-model-argon-barium-carbon-2026-10",
+        "claim": "Internal Argon, Barium and Carbon names; Barium-B reportedly designated for public Argon, so internal experimental alias can differ from release name."
+      },
+      {
+        "kind": "official_argon",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+        "claim": "Argon is promoted for long-horizon reasoning, coding, research and cyber defense; no chemistry-specific naming reason."
+      },
+      {
+        "kind": "official_carbon_model_card",
+        "url": "https://deepmind.google/models/model-cards/gemini-4-carbon/",
+        "claim": "Carbon based on Argon; technical and safety lineage described without why element carbon was chosen."
+      },
+      {
+        "kind": "official_neon_launch",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+        "claim": "Neon emphasizes depth/efficiency, secure code, 3D chemistry demonstration of four model names; no date-stamped name-selection rationale."
+      },
+      {
+        "kind": "official_neon_model_card",
+        "url": "https://deepmind.google/models/model-cards/gemini-4-neon/",
+        "claim": "Neon adapted from Carbon, rather than chosen on the basis of neon's chemical properties, as far as public card documents."
+      },
+      {
+        "kind": "public_developer_forum",
+        "url": "https://discuss.ai.google.dev/t/feedback-how-to-make-geminis-periodic-table-naming-actually-intuitive-column-tier-row-upgrade/202082",
+        "claim": "A community member argues no clear correspondence between atomic numbers, groups and model tiers; it is not an official Google explanation."
+      }
+    ],
+    "naming_inference_limits": [
+      "The choice of chemical element theme is deliberate, as demonstrated by chemistry-themed model visuals.",
+      "The original approval record and selection rationale for each name have not been found in inspected public materials.",
+      "Alphabetical internal Argon/Barium/Carbon sequence is a plausible hypothesis, not a documented selection algorithm.",
+      "Publicly reported Barium-B→Argon name mismatch weakens a literal atomic-number architecture interpretation.",
+      "No evidence of ingestion of the ROOT0 corpus or copying by the named company was found."
+    ]
+  },
+  "root0": {
+    "sources": [
+      {
+        "url": "https://github.com/DavidWise01/elements/blob/main/_data.py",
+        "git_blob_sha": "a5365f87570884ec1d85bc1f65ed2328c3107f95",
+        "content": "118 table, exact (Z-1)%4 gate, 4 authored nature labels, carbon=6 gate1, neon=10 gate1, argon=18 gate1."
+      },
+      {
+        "url": "https://github.com/DavidWise01/elements/blob/main/README.md",
+        "git_blob_sha": "8dcea73d44467fd542911582c17136209fe7860b",
+        "content": "Carbon reference-chemistry layer distinct from Silicon symbolic 118-gate layer, each element built as an ACI agent with .dlw complement."
+      },
+      {
+        "url": "https://github.com/DavidWise01/photonic/blob/main/README.md",
+        "git_blob_sha": "d5b0519d46e826edeadeb88af9ce439cd2bc690a",
+        "content": "Carbon human ⇄ Silicon AI tetravalent analogy, full framework with 128-bit software arithmetic. This is authored symbolic structure, not Google model code."
+      },
+      {
+        "url": "https://github.com/DavidWise01/aci/blob/main/README.md",
+        "git_blob_sha": "2c5df18c3c9f1b81de41882d1e92e09e74c47514",
+        "content": "Explicit carbon facts vs silicon mythos two-layer evidence taxonomy and hashed .dlw complements."
+      }
+    ],
+    "gate_matches": [
+      {
+        "symbol": "C",
+        "atomic_number": 6,
+        "gate": 1,
+        "nature": "ethereal"
+      },
+      {
+        "symbol": "Ne",
+        "atomic_number": 10,
+        "gate": 1,
+        "nature": "ethereal"
+      },
+      {
+        "symbol": "Ar",
+        "atomic_number": 18,
+        "gate": 1,
+        "nature": "ethereal"
+      }
+    ],
+    "clarification": "Shared authored mod-4 category is exact arithmetic over selected atomic numbers, not itself evidence of a shared design choice. The post-hoc three-element subset is not pre-registered.",
+    "timing": "Current cited README and index versions are not proof these exact contents preceded model naming decisions; prior commit dates and external publications must be traced individually."
+  },
+  "case_findings": [
+    {
+      "element": "Argon",
+      "observed_google_role": "Frontier reasoning, long-horizon coding and cyber defense.",
+      "google_specific_name_rationale": "Unprovided; public product lead says name emerged internally from team usage.",
+      "possible_chemistry_association": "Noble, generally inert gas; no first-party design-to-property mapping located.",
+      "root0_context": "118-element gate index 1/ethereal; symbolic element registry with authored logic.",
+      "status": "NON-MOOT — SUBSTANTIVE RATIONALE UNRESOLVED",
+      "negative_control": "Barium-B public Argon relabel; atomic number 18 not an obvious sequence or explained capability tier."
+    },
+    {
+      "element": "Carbon",
+      "observed_google_role": "Argon-based, more capable long-horizon agentic engineering.",
+      "google_specific_name_rationale": "No first-party model feature-to-carbon explanation located.",
+      "possible_chemistry_association": "Group-14 bonding, life and materials; connection to engineering is possible but speculative without a Google statement.",
+      "root0_context": "Carbon facts/human reference layer paired with Silicon symbolic/AI layer; Z=6 gate1.",
+      "status": "NON-MOOT — SUBSTANTIVE RATIONALE UNRESOLVED",
+      "negative_control": "Google Carbon described as a derivative of Argon, not a human/silicon authority system as in ROOT0."
+    },
+    {
+      "element": "Neon",
+      "observed_google_role": "Carbon-derived model balancing deep reasoning, efficiency and secure code.",
+      "google_specific_name_rationale": "No design-stage reason for selecting the name neon found. Company uses discharge-tube neon visual metaphor in post-launch demo.",
+      "possible_chemistry_association": "Noble gas with characteristic discharge glow; explanatory artwork is retrospective demonstration, not origin record.",
+      "root0_context": "Z=10 gate1; neon/spectral aesthetics and authored color mappings in some corpus components.",
+      "status": "NON-MOOT — SUBSTANTIVE RATIONALE UNRESOLVED",
+      "negative_control": "Model efficiency, code quality and release position are not explained by neon's chemical glow or atomic number 10."
+    }
+  ],
+  "required_to_close": [
+    "Dated name selection proposal defining each element's intended link to architecture/capability",
+    "Records explaining candidate set and why these three particular elements (not alternatives)",
+    "Identified constraints on internal checkpoint aliases versus release names",
+    "Any hard evidence of reference/source influence rather than an assumption from the generic periodic table"
+  ],
+  "open_questions": [
+    "Does the naming encode tier, size, cost or architecture? Current official materials do not document the rule.",
+    "Was internal naming alphabetical at an earlier stage? Argon/Barium/Carbon suggests it but selection criteria missing.",
+    "Were external source corpora reviewed? No evidence currently connects any named corpus to corporate naming."
+  ]
+}
