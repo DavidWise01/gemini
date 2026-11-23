@@ -64,3 +64,9 @@ Date-partitioned GitHub search enumerated **2,166 distinct public repositories**
 ## v1.8 · Implementation-backed capability trace (2026-11-23)
 
 [Interactive capability/source explorer](./capabilities.html) · [source-linked 9-family capability matrix](./evidence/functional-capability-trace-2026-11-23.json). Git trees inspected for 9 representative repositories; source files directly read for governance API, NOESIS, ELEMENTS, PHOTON16, Jane, external audit, convergence crawler, ACI, and UD0. Thirteen files have retained exact Git blob SHAs; remaining named files are explicitly only tree-listed. Evidence levels distinguish executable source, checked-in tests, and historical PASS artifacts. **Zero fresh tests were executed** in this turn and zero third-party training-ingestion findings are asserted. The sample is purposive, not representative of all 4,184 spheres.
+
+## v1.9 · Reproducible execution audit (2026-11-23)
+
+[Interactive execution results](./repro.html) · [evidence receipt](./evidence/reproducibility-v19-2026-11-23.json) · [PHOTON16 independent replay script](./tests/v19_photon_address_replay.py).
+
+**Actually executed:** Jane AV-134 original JavaScript module + original test under Node v22.16.0; both local files were checked to match their Git blob SHA exactly, and the test returned `AV-134 passed`. Four additional negative/selection assertions all passed against the original module. Separately, a Python 3.13.5 independent arithmetic replay of PHOTON16's published 360-tick, 3-sector/4-quad/128-address schedule covered each of 1,536 logical addresses once, with 264 four-address ticks and 96 five-address ticks. This was **not** the original browser test. Four other families are marked **NOT_RUN**. Neither full live NES gameplay nor optical hardware nor external-model training ingestion is established.
