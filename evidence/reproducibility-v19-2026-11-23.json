@@ -1,0 +1,113 @@
+{
+  "schema": "root0.gemini.reproducibility-audit/1",
+  "recorded_date": "2026-11-23",
+  "phase": "v1.9",
+  "status": "PARTIAL_REPLAY_VERIFIED",
+  "environment": {
+    "node": "v22.16.0",
+    "python": "3.13.5",
+    "external_network": "Unavailable in local runtime; GitHub source fetched via connected GitHub tool"
+  },
+  "checks": [
+    {
+      "id": "JANE-AV134-ORIGINAL",
+      "source_repo": "DavidWise01/jane-emu",
+      "mode": "BYTE_IDENTICAL_SOURCE_EXECUTION",
+      "status": "PASS",
+      "source_files": [
+        {
+          "path": "dashboard/av134_regeneration.js",
+          "git_blob_sha": "a9fbee1e7cefbad96bbe9de6c8b53eb3cd9a12e4",
+          "local_sha256": "d400fdec9ebd821e8722278186f47e590f28817618609328f4e2f3cf032e420c"
+        },
+        {
+          "path": "tests/av134_regeneration.test.cjs",
+          "git_blob_sha": "b0951128db83e42a250780dc0977d355d020d0f9",
+          "local_sha256": "22f724c3b4d5dad0ebbb924c2360e5da138f0909230026943556675fa4e77b64"
+        }
+      ],
+      "command": "node tests/av134_regeneration.test.cjs",
+      "stdout": "AV-134 passed",
+      "exit_code": 0,
+      "interpretation": "Original checked-in test executed against byte-identical module and test. Covers same-snapshot plan/observe and 'OBSERVED_UNSCORED'; does not verify live NES ROM play."
+    },
+    {
+      "id": "JANE-AV134-ADDITIONAL",
+      "source_repo": "DavidWise01/jane-emu",
+      "mode": "NEW_ADVERSARIAL_UNIT_CHECKS",
+      "status": "PASS",
+      "checks": {
+        "invalid_actor": true,
+        "wrong_rom": true,
+        "no_valid_alternative": true,
+        "select_best_candidate": true
+      },
+      "exit_code": 0,
+      "interpretation": "Four new independent assertions made against exact same original module."
+    },
+    {
+      "id": "PHOTON16-V13-REPLAY",
+      "source_repo": "DavidWise01/photonic",
+      "source_file": "photon16/experiments/v13-hierarchical-360-clock.json",
+      "source_git_blob_sha": "044e2da9cf08ef5a0157703c65b209a4f60ef9de",
+      "mode": "INDEPENDENT_ARITHMETIC_REIMPLEMENTATION",
+      "status": "PASS",
+      "result": {
+        "ticks": 360,
+        "total_assignments": 1536,
+        "distinct_addresses": 1536,
+        "range": [
+          0,
+          1535
+        ],
+        "counts_per_tick": {
+          "4": 264,
+          "5": 96
+        }
+      },
+      "interpretation": "Recomputed address windows with sector*512 offset and quad*128; this confirms arithmetic coverage for the documented logical schedule, not browser visuals, hardware physical modes, detector measurements or original JavaScript."
+    },
+    {
+      "id": "STOICHEION-API",
+      "source_repo": "DavidWise01/stoicheion-api",
+      "mode": "INSPECTION_ONLY",
+      "status": "NOT_RUN",
+      "reason": "Would require full-file dependency staging and controlled HTTP server setup; server.py documents an insecure development token fallback."
+    },
+    {
+      "id": "ELEMENTS-WORKSHOP",
+      "source_repo": "DavidWise01/elements",
+      "mode": "INSPECTION_ONLY",
+      "status": "NOT_RUN",
+      "reason": "build.py imports Pillow and includes a local Windows-specific noesis path; clean reproducibility not yet established."
+    },
+    {
+      "id": "NOESIS",
+      "source_repo": "DavidWise01/noesis-kernel",
+      "mode": "INSPECTION_ONLY",
+      "status": "NOT_RUN",
+      "reason": "Full node corpus and execution dependencies not staged."
+    },
+    {
+      "id": "CONVERGENCE-SCOUT",
+      "source_repo": "DavidWise01/the-convergence-audit",
+      "mode": "INSPECTION_ONLY",
+      "status": "NOT_RUN",
+      "reason": "Full test module imported source not staged; source tests and crawler were inspected in v1.8."
+    }
+  ],
+  "test_replay_artifacts": {
+    "local_sources_sha256": [
+      "d400fdec9ebd821e8722278186f47e590f28817618609328f4e2f3cf032e420c",
+      "22f724c3b4d5dad0ebbb924c2360e5da138f0909230026943556675fa4e77b64"
+    ],
+    "independent_photon_replay_script_sha256": "dd7c8a803de0b4ce7d82ff966f132a3539a56ee382a16901767b5b30d509b841",
+    "result_json_sha256": "3568537962e02648a79fbdb613bd405d8769fd144a488018b1cbbd14bf4969ae"
+  },
+  "limits": [
+    "JANE AV-134 is a unit-level result, not full autonomous emulator testing.",
+    "PHOTON16 result independently reimplements only published address arithmetic; not hardware, QED/QCD or browser physics verification.",
+    "No corporate training ingestion, derivation or transmission evidence can be inferred from local tests.",
+    "All unrun cases remain NOT_RUN; no silent PASS statuses."
+  ]
+}
