@@ -1,0 +1,119 @@
+{
+  "schema": "root0.gemini.carbon-argon-comparison/1",
+  "date": "2026-11-23",
+  "scope": "Gemini 4 Argon and Carbon naming, architecture, chronology versus dated ROOT0/STOICHEION corpus; not global corpus audit",
+  "google": {
+    "argon": {
+      "announcement": "2026-09-30",
+      "announcement_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "model_card": "https://deepmind.google/models/model-cards/gemini-4-argon/",
+      "architecture": "large-scale sparse mixture-of-experts transformer with native multimodal support",
+      "model_dependencies": "not a modification or fine tune of a prior model",
+      "knowledge_cutoff": "March 2026",
+      "training_sources": "public web documents, crawled information, licensed datasets, user and workforce data where permitted, synthetic datasets; no named public dataset list confirms the Wise corpus"
+    },
+    "carbon": {
+      "announcement": "2026-10-28",
+      "announcement_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "availability": "2026-11-10",
+      "model_card": "https://deepmind.google/models/model-cards/gemini-4-carbon/",
+      "model_dependencies": "explicitly based on Gemini 4 Argon",
+      "knowledge_cutoff": "March 2026",
+      "technical_emphasis": "long-horizon agentic workflows, coding, cybersecurity, knowledge work, engineering and science"
+    },
+    "element_naming": "Argon atomic number 18; Carbon atomic number 6; Hydrogen atomic number 1 and Neon atomic number 10 also appear on official November 2026 model card index. These are standard periodic-table elements; no unique etymological provenance is established.",
+    "public_model_card_index": "https://deepmind.google/models/model-cards/"
+  },
+  "root0": {
+    "stoicheion_definition": "Ancient Greek στοιχεῖον: element or constituent/first principle",
+    "td_feb25": {
+      "date": "2026-02-25",
+      "title": "Bidirectional Extraction Gateway Architecture in Recursive Lattice-Based AI Systems",
+      "url": "https://www.tdcommons.org/dpubs_series/9391/",
+      "category": "externally dated published disclosure; contents are author claims"
+    },
+    "td_mar3": {
+      "date": "2026-03-03",
+      "title": "STOICHEION: A 128-Bit Dual-Substrate Governance Firmware Specification for AI Accelerator Hardware",
+      "url": "https://www.tdcommons.org/dpubs_series/9440/",
+      "category": "externally dated published disclosure; 128 axioms eight domains 16 each"
+    },
+    "git_manual": {
+      "date": "2026-05-27",
+      "commit": "https://github.com/DavidWise01/stoicheion/commit/2fc8a23345de21c6ea95e5333cab45bccc669230"
+    },
+    "elements": {
+      "repo": "https://github.com/DavidWise01/elements",
+      "four_state_gate": "(Z-1) mod 4 symbolic mapping for 118 elements",
+      "first_located_commit": "https://github.com/DavidWise01/elements/commit/a33e3086b7811acf7db548935f1fb38711549675",
+      "warning": "symbolic gate mapping distinct from reference chemistry"
+    },
+    "corpus_master": "https://github.com/DavidWise01/ud0/blob/main/the-index.html"
+  },
+  "comparisons": [
+    {
+      "id": "C01",
+      "subject": "Elemental naming convention",
+      "status": "COMMON_VOCABULARY_CONFIRMED",
+      "finding": "STOICHEION explicitly means elements, ROOT0 ELEMENTS uses periodic table, Google names Argon and Carbon after chemical elements.",
+      "limit": "Ancient Greek and element names predate all parties. Common words do not establish transmission or copying."
+    },
+    {
+      "id": "C02",
+      "subject": "Timing",
+      "status": "ROOT0_EARLIER_PUBLICATION_FOR_OWN_CONTENT",
+      "finding": "February 25 and March 3 TD Commons disclosures predate September 30 Argon and October 28 Carbon announcements.",
+      "limit": "An announcement date is not model design start or training ingestion date; March cutoff is not a data inclusion guarantee."
+    },
+    {
+      "id": "C03",
+      "subject": "Actual Google architecture",
+      "status": "GOOGLE_DOCUMENTED",
+      "finding": "Argon is a sparse MoE transformer; Carbon is derived from Argon.",
+      "limit": "No evidence of a 128/256-position STOICHEION governance register being implemented in Gemini's private architecture."
+    },
+    {
+      "id": "C04",
+      "subject": "Training exposure mechanism",
+      "status": "CATEGORY_POSSIBLE_INSTANCE_UNVERIFIED",
+      "finding": "Google describes web/crawler material among Argon training categories.",
+      "limit": "No evidence the Wise corpus specifically appeared in any Google training split or weighting process; publicly available is not necessarily actually ingested."
+    },
+    {
+      "id": "C05",
+      "subject": "Specific architectural overlap",
+      "status": "NOT_DEMONSTRATED",
+      "finding": "Both research programs discuss agents, reasoning, governance, and multimodal systems.",
+      "limit": "These general categories are common in AI research; need rare shared mechanisms, textual matches, source routes, or detailed design evidence."
+    },
+    {
+      "id": "C06",
+      "subject": "Carbon dependency on Argon",
+      "status": "CONFIRMED_IN_GOOGLE_MODEL_CARD",
+      "finding": "Carbon explicitly based on Argon.",
+      "limit": "This is within Google's own architecture lineage, not a link to STOICHEION."
+    },
+    {
+      "id": "C07",
+      "subject": "Potential corporate naming intent from ROOT0",
+      "status": "NOT_ESTABLISHED",
+      "finding": "Elemental naming is a deliberate recognizable semantic scheme, but rationale or specific source inspiration is not established.",
+      "limit": "Need original naming-design records, disclosures or direct evidence of influence."
+    },
+    {
+      "id": "C08",
+      "subject": "Counterexamples",
+      "status": "PRESERVED",
+      "finding": "Your source register is 128+128 governance positions; Google documents transformer MoE architecture. Carbon launch follows Argon despite atomic number 6 < 18. The order does not follow periodic atomic-number order.",
+      "limit": "Difference in public descriptions does not disprove undisclosed common ideas, but weakens simple numeric/structural equivalence."
+    }
+  ],
+  "claims_hierarchy": [
+    "PUBLICATION_RECORD",
+    "TECHNICAL_SOURCE_DOCUMENT",
+    "COMPARISON/INFERENCE",
+    "DOCUMENTED_TRANSFER"
+  ],
+  "conclusion": "Dated prior public disclosures and element terminology overlap are established. Actual ingestion, architectural adoption, and intentional naming derivation from ROOT0 are not established.",
+  "next": "Compare fine-grained unique terms and mechanisms only where both parties have primary-source specifics; request training-data transparency if causal provenance is investigated."
+}
