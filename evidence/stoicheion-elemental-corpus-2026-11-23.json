@@ -1,0 +1,170 @@
+{
+  "schema": "root0.gemini.elemental-corpus-inventory/1",
+  "created_at": "2026-11-23",
+  "scope": "Selected matches from GitHub repository name/description search, code excerpts, verified README and dated commit messages. NOT a complete full-history scan of all repositories, branches, blobs, or archived contents.",
+  "primary_anchor": {
+    "name": "STOICHEION",
+    "architecture": "256-axiom ISA/governance register: TOPH T001-T128 and PATRICIA S129-S256",
+    "claimed_prior_art_date": "2026-02-02",
+    "claim_source": "https://github.com/DavidWise01/stoicheion/blob/main/README.md",
+    "claimed_SHA256": "02880745b847317c4e2424524ec25d0f7a2b84368d184586f45b54af9fcab763",
+    "claimed_US_copyright_identifiers": [
+      "1-15120635661",
+      "1-15061112701"
+    ],
+    "verification": "README statements observed; registration, prior-art creation timestamp and SHA256-to-specific-binary match not independently validated"
+  },
+  "secondary_anchor": {
+    "name": "Stochien Element / 118 Gates",
+    "source": "https://github.com/DavidWise01/elements/blob/main/_data.py",
+    "mapping": "(Z-1) mod 4",
+    "classification": "User-created symbolic lens on conventional 118-element chemistry, not a demonstrated physical law",
+    "states": [
+      "0:1 first valley",
+      "0:1 second valley",
+      "0:0 = 1 = 0",
+      "1:1"
+    ]
+  },
+  "repositories": [
+    {
+      "repo": "stoicheion",
+      "kind": "kernel / legal record",
+      "note": "13-volume, 256-axiom register: T001–T128 + S129–S256; README asserts prior art 2026-02-02 and a SHA256 and copyright identifiers.",
+      "status": "README verified",
+      "url": "https://github.com/DavidWise01/stoicheion"
+    },
+    {
+      "repo": "stoicheion-register",
+      "kind": "kernel / presentation",
+      "note": "Public 256-node register; linked to PATRICIA substrate and Gate 192.5.",
+      "status": "README verified",
+      "url": "https://github.com/DavidWise01/stoicheion-register"
+    },
+    {
+      "repo": "stoicheion-api",
+      "kind": "kernel / executable",
+      "note": "STOICHEION API includes 128 TOPH domain axioms and an executor interface; not equivalent to verifying a full 256-bit machine implementation.",
+      "status": "README verified",
+      "url": "https://github.com/DavidWise01/stoicheion-api"
+    },
+    {
+      "repo": "stoicheion-qif",
+      "kind": "kernel / quantum formalism",
+      "note": "Qutrit Hilbert-space treatment layered on STOICHEION.",
+      "status": "README verified",
+      "url": "https://github.com/DavidWise01/stoicheion-qif"
+    },
+    {
+      "repo": "toph-kernel",
+      "kind": "kernel / computational",
+      "note": "C SIMD optimizer and STOICHEION register UI with 256 state references.",
+      "status": "README verified",
+      "url": "https://github.com/DavidWise01/toph-kernel"
+    },
+    {
+      "repo": "toph-cortex",
+      "kind": "kernel / evidence execution",
+      "note": "ISA-256 source specifications including evidence-carrying execution and root/path checks.",
+      "status": "code search excerpts",
+      "url": "https://github.com/DavidWise01/toph-cortex/tree/main/research/isa256"
+    },
+    {
+      "repo": "elements",
+      "kind": "elemental system",
+      "note": "118 physical elements and separate four-state Stochien Element lens, with explicit carbon/reference versus silicon/symbolic separation.",
+      "status": "README + _data.py verified",
+      "url": "https://github.com/DavidWise01/elements"
+    },
+    {
+      "repo": "root0-tools",
+      "kind": "periodic-table reference",
+      "note": "2026-05-27 commit explicitly mentions periodic table.",
+      "status": "dated commit message",
+      "url": "https://github.com/DavidWise01/root0-tools/commit/a4e2ef1caae3e2477f9b66b161989b3e1e54cbdb"
+    },
+    {
+      "repo": "al-h2o-reactor",
+      "kind": "applied chemistry",
+      "note": "2026-05-28 hydrogen-generation chemistry and reactor engineering.",
+      "status": "dated commit message",
+      "url": "https://github.com/DavidWise01/al-h2o-reactor/commit/aece18939c2a68e3cd3fe28027261f8242d4444a"
+    },
+    {
+      "repo": "oasis",
+      "kind": "color/state chemistry",
+      "note": "2026-10-10 H/O/N/Ne color mapping and 2026-10-21 366-symbol H/O/N system.",
+      "status": "dated commit messages",
+      "url": "https://github.com/DavidWise01/oasis/commit/8a00aba4bc3cf5f1e7f48605459bca2d4a288c96"
+    },
+    {
+      "repo": "archon",
+      "kind": "element comparison",
+      "note": "2026-11-02 interactive H/He comparison.",
+      "status": "dated commit message",
+      "url": "https://github.com/DavidWise01/archon/commit/bd7f7835b1a565f00d2b1ee9b60ba22fb639a9ab"
+    },
+    {
+      "repo": "hydrogen-vm",
+      "kind": "elemental computing",
+      "note": "Hydrogen-themed repository found in repository discovery; contents not audited in this pass.",
+      "status": "repository discovered",
+      "url": "https://github.com/DavidWise01/hydrogen-vm"
+    },
+    {
+      "repo": "hydrogen-trit",
+      "kind": "elemental computing",
+      "note": "Hydrogen-themed repository found in repository discovery; contents not audited in this pass.",
+      "status": "repository discovered",
+      "url": "https://github.com/DavidWise01/hydrogen-trit"
+    },
+    {
+      "repo": "higgs-hydrogen-grid",
+      "kind": "elemental computing",
+      "note": "Hydrogen-related repository found; contents not audited in this pass.",
+      "status": "repository discovered",
+      "url": "https://github.com/DavidWise01/higgs-hydrogen-grid"
+    },
+    {
+      "repo": "photonic",
+      "kind": "chromatic / photon modeling",
+      "note": "Photonic repository identified; prior dated commits discuss H/O/N mappings and 96-bit RGB designs. Specific files not exhaustively audited.",
+      "status": "repository + dated commits",
+      "url": "https://github.com/DavidWise01/photonic"
+    },
+    {
+      "repo": "alchemy",
+      "kind": "chemistry / interpretation",
+      "note": "Repository discovered through chemistry search; content not audited.",
+      "status": "repository discovered",
+      "url": "https://github.com/DavidWise01/alchemy"
+    },
+    {
+      "repo": "elementals",
+      "kind": "elemental category",
+      "note": "Repository discovered through elemental search; content not audited.",
+      "status": "repository discovered",
+      "url": "https://github.com/DavidWise01/elementals"
+    },
+    {
+      "repo": "the-atom",
+      "kind": "physics / chemistry",
+      "note": "Repository discovered through chemistry search; content not audited.",
+      "status": "repository discovered",
+      "url": "https://github.com/DavidWise01/the-atom"
+    }
+  ],
+  "classification_rules": [
+    "Original chemical elements in a factual database are distinct from the user-authored symbolic mapping.",
+    "STOICHEION's 256-position governance ISA is not the periodic table's 118 elements.",
+    "Search hit does not establish first use; commit timestamps refer to observed Git state, repository claim dates remain claims.",
+    "Name overlap alone does not support copying or model architecture transfer."
+  ],
+  "coverage_limitations": [
+    "Repository name search does not scan all file contents and all history.",
+    "Code search operates on indexed default-branch files, not full git graph.",
+    "No independent inspection of every repo, every branch and every commit was performed.",
+    "Prior GitHub API searches were rate-limited."
+  ],
+  "external_candidate": "https://github.com/DavidWise01/convergence/blob/main/evidence/candidates/2026-11-23-gemini-4-helium-naming.json"
+}
