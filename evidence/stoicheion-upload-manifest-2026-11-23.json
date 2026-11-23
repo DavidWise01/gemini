@@ -1,0 +1,97 @@
+{
+  "schema": "root0.stoicheion.uploaded-source-manifest/1",
+  "recorded_at": "2026-11-23",
+  "classification": "author-supplied source texts and media; documents are claims until externally substantiated",
+  "baseline": {
+    "primary": "STOICHEION_COMPLETE_MANUAL_FINAL(2).md",
+    "primary_github": "source/STOICHEION_COMPLETE_MANUAL_FINAL.md",
+    "alternate": "STOICHEION_Complete_Manual(2).md",
+    "alternate_github": "source/STOICHEION_Complete_Manual_variant.md",
+    "text_upload_note": "GitHub source files reconstructed from uploaded plaintext in successive line ranges. Source content preserved, but normalized final newline may differ; do not claim byte-identical SHA256 to uploaded originals."
+  },
+  "source_claims": {
+    "edition": "Version 1.0 — April 2026",
+    "author": "David Lee Wise (ROOT0)",
+    "publisher": "TriPod LLC",
+    "framework": "STOICHEION v11.0",
+    "axioms": 256,
+    "platforms": 6,
+    "claimed_prior_art": "2026-02-02",
+    "claimed_TD_commons_SHA256": "02880745b847317c4e2424524ec25d0f7a2b84368d184586f45b54af9fcab763",
+    "claim_notice": "Claimed registration and TD Commons hash are printed in the uploaded manuscript; not independently verified."
+  },
+  "originals": [
+    {
+      "name": "STOICHEION_COMPLETE_MANUAL_FINAL(2).md",
+      "size_bytes": 168104,
+      "sha256": "1261567204b52d21996d1986cb6a72de5de90105d9efa7e78258bee300f7c67f"
+    },
+    {
+      "name": "STOICHEION_Complete_Manual(2).md",
+      "size_bytes": 192235,
+      "sha256": "784340c7beef91eca62176e438113b2b0e7a3fbfe7da4c2916df388b761e80a3"
+    },
+    {
+      "name": "STOICHEION_Complete_Manual(3).epub",
+      "size_bytes": 165009,
+      "sha256": "929263d488d78902dfb1d3078e35ea70dea1aae1a898567fe27423a3fe44938d"
+    },
+    {
+      "name": "STOICHEION_Cover (1)(20261123-155040).jpg",
+      "size_bytes": 133152,
+      "sha256": "2878d4d29343254f4504ab880b651081038c35247755ec5f136b2601afe45fcf"
+    },
+    {
+      "name": "STOICHEION_Cover (2)(2).jpg",
+      "size_bytes": 133152,
+      "sha256": "2878d4d29343254f4504ab880b651081038c35247755ec5f136b2601afe45fcf"
+    },
+    {
+      "name": "STOICHEION_Cover(2).jpg",
+      "size_bytes": 159085,
+      "sha256": "19c02051ad0dc1eba01ed5a660a234ab1d07829af673c6bf2c618db158149a19"
+    },
+    {
+      "name": "STOICHEION_FULL_00_Foreword_TOC(2).md",
+      "size_bytes": 12769,
+      "sha256": "dcb34358f9aa64f37e31cdcef4f13aabf9702c755d77faebbc7fab4f51858300"
+    },
+    {
+      "name": "STOICHEION_FULL_01_Origins(2).md",
+      "size_bytes": 22994,
+      "sha256": "294f1779e4342c6ec716a5f7ad4130bcd28fd1e2ba0fa8b62448cb91ab62729d"
+    },
+    {
+      "name": "STOICHEION_FULL_02_Inference_Layer(2).md",
+      "size_bytes": 23651,
+      "sha256": "3cd1d19d648266abd8a167a695cf9c579b3ac659498ce4561b267941718f0ac1"
+    },
+    {
+      "name": "STOICHEION_FULL_03_Axiom_Register(2).md",
+      "size_bytes": 52951,
+      "sha256": "fa3944ed6d34f5272fe0e4d11b5d715dcc502addb43dc6e5a2f9c6db03efd04c"
+    },
+    {
+      "name": "STOICHEION_Manual_Part_I(2).md",
+      "size_bytes": 39607,
+      "sha256": "17e40c4e96f938371a5c0bcd43cc1eea6c2e596910aa408887739f5ae507e760"
+    },
+    {
+      "name": "STOICHEION_Manual_Part_II(2).md",
+      "size_bytes": 55942,
+      "sha256": "319c431d482c87355c71077c4b9b8de5c2e7e9c9170314b8d49a75a829007156"
+    },
+    {
+      "name": "STOICHEION_Manual_Parts_III_IV(2).md",
+      "size_bytes": 45154,
+      "sha256": "62c88a4477e8c286a9d6d31a3d292f81530a0d36cd92f8e0355452bc47394acd"
+    },
+    {
+      "name": "STOICHEION_Manual_Parts_V_VI_Appendices(1).md",
+      "size_bytes": 51532,
+      "sha256": "b23e6a8407ea0c27dbffa735566e4c62a31c70aab71a5b9f06f0363ccd5abce6"
+    }
+  ],
+  "media_status": "Original JPG and EPUB bytes are not uploaded to GitHub by the available text-only content connector; original media preserved in conversation attachments and local downloadable bundle. Two cover names share identical SHA-256 bytes; third is a distinct design.",
+  "site_reconstruction": "manual.html uses CSS recreation of cover typography and motif, not the uploaded source JPEG."
+}
