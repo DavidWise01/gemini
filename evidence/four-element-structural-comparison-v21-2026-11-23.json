@@ -1,0 +1,190 @@
+{
+  "schema": "root0.gemini.four-element-structural-comparison/1",
+  "version": "2.1",
+  "recorded_at": "2026-11-23",
+  "scope": "Primary-source comparison Gemini 4 H C Ne Ar with ROOT0 ELEMENTS and STOICHEION. Not attribution proof.",
+  "source_ancestry": {
+    "wise_elements_data": {
+      "url": "https://github.com/DavidWise01/elements/blob/main/_data.py",
+      "blob_sha": "a5365f87570884ec1d85bc1f65ed2328c3107f95",
+      "exact_rule": "GATE_STATES[(Z - 1) % 4]",
+      "categories": [
+        "electrical",
+        "ethereal",
+        "spiritual",
+        "natural"
+      ]
+    },
+    "wise_stoicheion": {
+      "url": "https://github.com/DavidWise01/stoicheion",
+      "manual_git_commit": "https://github.com/DavidWise01/stoicheion/commit/2fc8a23345de21c6ea95e5333cab45bccc669230",
+      "earlier_tdcommons_disclosures": [
+        "https://www.tdcommons.org/dpubs_series/9391/",
+        "https://www.tdcommons.org/dpubs_series/9440/"
+      ],
+      "statement": "128 primary TOPH axioms plus 128 PATRICIA inversions, eight primary domains of 16"
+    },
+    "google_cards_index": "https://deepmind.google/models/model-cards/",
+    "google_blog_neon": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+  },
+  "models": [
+    {
+      "symbol": "H",
+      "element": "Hydrogen",
+      "z": 1,
+      "gateIndex": 0,
+      "gateState": "0:1 — first valley",
+      "nature": "electrical",
+      "category": "nonmetal",
+      "role": "Fast everyday execution, coding, agentic work",
+      "modelCard": "https://deepmind.google/models/model-cards/gemini-4-hydrogen/",
+      "cardDate": "2026-11-12",
+      "dependency": "Adapted from Gemini 4 Carbon"
+    },
+    {
+      "symbol": "C",
+      "element": "Carbon",
+      "z": 6,
+      "gateIndex": 1,
+      "gateState": "0:1 — second valley",
+      "nature": "ethereal",
+      "category": "nonmetal",
+      "role": "Frontier long-horizon reasoning and complex agents",
+      "modelCard": "https://deepmind.google/models/model-cards/gemini-4-carbon/",
+      "cardDate": "2026-11-10",
+      "dependency": "Based on Gemini 4 Argon"
+    },
+    {
+      "symbol": "Ne",
+      "element": "Neon",
+      "z": 10,
+      "gateIndex": 1,
+      "gateState": "0:1 — second valley",
+      "nature": "ethereal",
+      "category": "noble gas",
+      "role": "Balanced depth and efficiency for coding and production workflows",
+      "modelCard": "https://deepmind.google/models/model-cards/gemini-4-neon/",
+      "cardDate": "2026-11-18",
+      "dependency": "Adapted from Gemini 4 Carbon"
+    },
+    {
+      "symbol": "Ar",
+      "element": "Argon",
+      "z": 18,
+      "gateIndex": 1,
+      "gateState": "0:1 — second valley",
+      "nature": "ethereal",
+      "category": "noble gas",
+      "role": "Foundational frontier model for reasoning and complex tasks",
+      "modelCard": "https://deepmind.google/models/model-cards/gemini-4-argon/",
+      "cardDate": "2026-10-13",
+      "dependency": "Not a fine-tune or modification of a prior model"
+    }
+  ],
+  "model_lineage_edges": [
+    [
+      "Argon",
+      "Carbon"
+    ],
+    [
+      "Carbon",
+      "Hydrogen"
+    ],
+    [
+      "Carbon",
+      "Neon"
+    ]
+  ],
+  "computed_patterns": {
+    "selected_z": [
+      1,
+      6,
+      10,
+      18
+    ],
+    "z_sorted": [
+      1,
+      6,
+      10,
+      18
+    ],
+    "sorted_differences": [
+      5,
+      4,
+      8
+    ],
+    "mod4_z_minus1": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "three_models_same_gate": true,
+    "three_models_z_congruent_2_mod4": true,
+    "atomic_number_progression_does_not_match_documented_dependency_lineage": true,
+    "selection_has_2_noble_gases_and_2_nonmetals": true,
+    "periodic_table_group": "H group 1, C group 14, Ne and Ar group 18",
+    "note": "Observed 3-of-4 gate alignment is arithmetic; multiple alternate selection hypotheses exist and no pre-registered null model or probability estimate is supplied."
+  },
+  "findings": [
+    {
+      "id": "N1",
+      "label": "Shared element vocabulary",
+      "status": "CONFIRMED_COMMON_VOCABULARY",
+      "evidence": "Google officially employs names H, C, Ne, Ar; Wise ELEMENTS lists all 118 elements in _data.py.",
+      "counterexample": "The names and scientific properties are globally established terminology, not exclusive to a source."
+    },
+    {
+      "id": "N2",
+      "label": "Mod-4 gate clustering",
+      "status": "CONFIRMED_ARITHMETIC",
+      "evidence": "(Z-1)%4 = 0 for H and 1 for C, Ne, Ar.",
+      "counterexample": "Three matching values in a four-element selection without pre-specified candidate mechanism do not establish deliberate design; other periodic congruences can be found."
+    },
+    {
+      "id": "N3",
+      "label": "Periodic table category split",
+      "status": "CONFIRMED",
+      "evidence": "H and C are nonmetals; Ne and Ar are group-18 noble gases in _data.py.",
+      "counterexample": "Google's chemical Bunsen-flame and discharge-tube example reflects conventional chemistry."
+    },
+    {
+      "id": "N4",
+      "label": "Google training/model family lineage",
+      "status": "DOCUMENTED_INTERNAL_LINEAGE",
+      "evidence": "Argon→Carbon→{Hydrogen,Neon} according to respective Google model cards.",
+      "counterexample": "Atomic-number order 1,6,10,18 does not reproduce model dependency order 18→6→1/10."
+    },
+    {
+      "id": "N5",
+      "label": "Distinctive STOICHEION governance signature",
+      "status": "NOT_FOUND_IN_PUBLIC_GOOGLE_CARDS",
+      "evidence": "Wise describes 128 TOPH + 128 PATRICIA inverse positions and gate 192.5; public Google cards describe MoE transformer and adapted model lineage without those mechanisms.",
+      "counterexample": "Private architecture is opaque; absence in public documents neither proves implementation nor non-implementation."
+    },
+    {
+      "id": "N6",
+      "label": "Deliberate chemical imagery at Google",
+      "status": "CONFIRMED",
+      "evidence": "Google Neon announcement describes visualizing all four names with Bunsen burners for C and H and discharge tubes for Ar and Ne.",
+      "counterexample": "Use of standard element chemistry in a promotional visualization does not prove source influence."
+    },
+    {
+      "id": "N7",
+      "label": "Precedence and ingestion",
+      "status": "PRIOR_PUBLIC_DISCLOSURE_YES_SPECIFIC_INGESTION_UNKNOWN",
+      "evidence": "Dated Feb and March STOICHEION publications and May manual commit precede later Google model announcements. Google Argon describes public web/crawler training categories and March 2026 knowledge cutoff.",
+      "counterexample": "Knowledge cutoff is not a complete inclusion window and the original model-building chronology is not established by announcement date."
+    },
+    {
+      "id": "N8",
+      "label": "Intent or copying",
+      "status": "NOT_ESTABLISHED",
+      "evidence": "No independently verified source-to-Google transmission, naming design memo, matching unusual implementation, or training corpus inclusion record.",
+      "counterexample": "Clustering and chronology alone are not causal evidence."
+    }
+  ],
+  "decision": "Confirm patterned vocabulary and arithmetic congruence; reject a causal attribution conclusion on currently available evidence.",
+  "next_bound": "Source-level chronological inspection of the unusual 4-gate mapping versus Google name-intent statements; test selection biases against other potential four-element subsets and collect independent documentation of model naming rationale.",
+  "integrity": "Append-only evidence artifact; do not overwrite prior v2.0 ledger."
+}
