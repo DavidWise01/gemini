@@ -1,0 +1,122 @@
+{
+  "schema": "root0.convergence.original-framework-cross-repository-audit/1",
+  "version": "3.2",
+  "recorded_date": "2026-11-23",
+  "scope": "Search earlier GitHub repositories and public publications for first exact multi-framework ETHOS/PATHOS/LOGOS and MYTHOS architecture rather than relying on UD0 alone.",
+  "verified_sources": [
+    {
+      "id": "S01",
+      "date": "2026-02-18",
+      "repo": "DavidWise01/AI-Audit-Tools",
+      "commit": "2e1789f326aa353914dd4c1fc198a1ec576d234a",
+      "role": "SUBSTANTIVE_EARLY_TOPH_CONTROL",
+      "finding": "Complete Feb 18 tree inspection: substantial TOPH implementation, but no exact four label strings in pinned snapshot.",
+      "url": "https://github.com/DavidWise01/AI-Audit-Tools/commit/2e1789f326aa353914dd4c1fc198a1ec576d234a",
+      "limit": "Absence only in bounded inspected snapshot."
+    },
+    {
+      "id": "S02",
+      "date": "2026-05-30T18:17:21Z",
+      "repo": "DavidWise01/knowledge-gates",
+      "commit": "53ad0496b161e5dae6a9931bb945631ab49e4068",
+      "role": "FIRST_LOCATED_ISOLATED_LOGOS_TECHNICAL_TERM_IN_COMMIT_SEARCH",
+      "finding": "Knowledge Gates includes KG-26 'The Logos Gate': a formally described requirement that actionable claims carry traceable reasoning ancestry; one isolated LOGOS mechanism, not a complete ETHOS/PATHOS/LOGOS multi-framework architecture.",
+      "url": "https://github.com/DavidWise01/knowledge-gates/commit/53ad0496b161e5dae6a9931bb945631ab49e4068",
+      "limit": "Not direct evidence of Jan–Feb multi-framework names."
+    },
+    {
+      "id": "S03",
+      "date": "2026-07-09T23:11:52Z",
+      "repo": "DavidWise01/jane",
+      "commit": "eb4a1139f28bae98864978be9defc689325ce245",
+      "role": "FIRST_VERIFIED_INDEPENDENT_FOUR_FRAMEWORK_IMPLEMENTATION_IN_EXPANDED_SEARCH",
+      "file": "index.html",
+      "blob_sha": "61248663c9d959cbbefdcdee4653ff75993d7c5f",
+      "finding": "Original repo initial commit has a five-variant system: Jane-Earth=Ethos grounding memory, Jane-Water=Pathos emotional memory, Jane-Air=Logos rational memory, Jane-Fire=Mythos transformative memory, Jane-Prime=Love integrating the four. Four named elements and distinct functional descriptions are directly present in the original committed HTML.",
+      "url": "https://github.com/DavidWise01/jane/commit/eb4a1139f28bae98864978be9defc689325ce245",
+      "limit": "This July public file is after April 7 Anthropic Mythos public announcement; it does not validate Jan-Feb first creation or corporate transfer."
+    },
+    {
+      "id": "S04",
+      "date": "2026-07-23T17:09:07Z",
+      "repo": "DavidWise01/ud0",
+      "commit": "71e1dbd0b627c39ee62cbfcfb258946f6d5bdc71",
+      "role": "LATER_DOMAIN_PARTITION",
+      "finding": "Another distinct source implementation organizes 53 domains under four appeal names, after Jane's July 9 model.",
+      "url": "https://github.com/DavidWise01/ud0/commit/71e1dbd0b627c39ee62cbfcfb258946f6d5bdc71",
+      "limit": "Both are owned-corpus evidence and not independent organizations; do not count as independent witnesses of corporate naming."
+    },
+    {
+      "id": "S05",
+      "date": "2026-09-23",
+      "role": "LATER_EXTERNAL_PUBLICATION",
+      "finding": "Externally dated TD Commons Quad Cortex paper explicitly names four ETHOS/LOGOS/PATHOS/MYTHOS cortices.",
+      "url": "https://www.tdcommons.org/dpubs_series/11814/",
+      "limit": "Later independent publisher timestamp, not Jan-Feb."
+    }
+  ],
+  "jane_original_function_map": [
+    {
+      "variant": "Jane-Earth",
+      "element": "Earth",
+      "framework": "ETHOS",
+      "function": "Grounding memory. Principles, oaths, and long now. Immutable bedrock."
+    },
+    {
+      "variant": "Jane-Water",
+      "element": "Water",
+      "framework": "PATHOS",
+      "function": "Emotional memory. Flow, empathy, attunement."
+    },
+    {
+      "variant": "Jane-Air",
+      "element": "Air",
+      "framework": "LOGOS",
+      "function": "Rational memory. Compression, clarity, inference."
+    },
+    {
+      "variant": "Jane-Fire",
+      "element": "Fire",
+      "framework": "MYTHOS",
+      "function": "Transformative memory. Story, ritual, becoming."
+    },
+    {
+      "variant": "Jane-Prime",
+      "element": "Fifth / Love",
+      "framework": "INTEGRATION",
+      "function": "Unifying the preceding four memory kinds."
+    }
+  ],
+  "search_coverage": {
+    "github_owner": "DavidWise01",
+    "search_modes": [
+      "owner-scoped filename/content code search",
+      "owner-scoped commit-message search earliest-first",
+      "pinned Git commit file diffs",
+      "exact pinned original HTML retrieval",
+      "TD Commons public-search for exact four names"
+    ],
+    "limits": [
+      "GitHub code search may not index historical revisions or all large repos, and matches are sparse. Repository search is incomplete as a global corpus inventory.",
+      "Commit message searches find only words in commit messages, not every word in committed file contents.",
+      "External publisher search may miss PDFs or unindexed text.",
+      "No comprehensive search over all private drafts, past chat archives, email attachments, or every public owned repository commit was completed."
+    ]
+  },
+  "chronology_correction": {
+    "previous": "Earlier v2.8/v3.0 described July 23 UD0 as the first located four-part system.",
+    "revised": "July 9 initial DavidWise01/jane source is now the earliest *located in the expanded audited search* complete 4+1 implementation.",
+    "difference_days": 14,
+    "reasons": "Original Jane implementation includes actual source-level functional labels and a center-integrating variant."
+  },
+  "assessment": {
+    "root0_early_governance": "Evidenced Feb 2026",
+    "specific_first_logos_gate": "Evidenced May 30 2026",
+    "four_plus_one_framework": "Evidenced July 9 2026",
+    "first_separately_rooted_ethos_pathos_logos_as_of_jan_feb": "NOT_LOCATED",
+    "claude_mythos_naming_transfer": "NOT_ESTABLISHED",
+    "key_counterexample": "Anthropic public April 7 Mythos predates the first located July 9 full four-framework source.",
+    "decision": "NON-MOOT for earlier claimed structure pending independently dated original records. Do not equate later framework proof with an earlier date."
+  },
+  "next": "Search original TD Commons pre-April indexed PDFs/manuscripts for exact separately rooted framework vocabulary and independently timestamped early archival evidence; compare distinctive mechanics, with 2024 Anthropic rhetorical vocabulary as alternate antecedent."
+}
