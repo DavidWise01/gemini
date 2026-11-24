@@ -1,0 +1,177 @@
+{
+  "schema": "root0.convergence.february-source-exhaustive-snapshot/1",
+  "version": "3.1",
+  "recorded_date": "2026-11-23",
+  "scope": "All regular files in a single pinned February 18 AI-Audit-Tools Git tree, plus February 19 original intellectual-property declaration. Literal case-insensitive token match (word boundary) is a bounded test, not semantic interpretation.",
+  "repo": "DavidWise01/AI-Audit-Tools",
+  "pinned_commit": "2e1789f326aa353914dd4c1fc198a1ec576d234a",
+  "pinned_date": "2026-02-18T12:58:41Z",
+  "commit_url": "https://github.com/DavidWise01/AI-Audit-Tools/commit/2e1789f326aa353914dd4c1fc198a1ec576d234a",
+  "git_tree_entries": 17,
+  "regular_files": 17,
+  "distinct_blob_hashes": 16,
+  "duplicated_blob_names": [
+    "Toph Complex Math",
+    "toph_complex_math.html"
+  ],
+  "exact_search_terms": [
+    "ETHOS",
+    "PATHOS",
+    "LOGOS",
+    "MYTHOS",
+    "STOICHEION"
+  ],
+  "original_file_inventory": [
+    {
+      "path": ".gitattributes",
+      "git_blob_sha": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "exact_term_hits": 0,
+      "read_method": "pinned Git tree or previously fetched original file"
+    },
+    {
+      "path": "TRIPOD-BEACON1.txt",
+      "git_blob_sha": "38c031ac61a04ce20c5908644ba26996b027b089",
+      "exact_term_hits": 0,
+      "read_method": "pinned Git tree or previously fetched original file"
+    },
+    {
+      "path": "TRIPOD-POISON-PILL-v1.0.html",
+      "git_blob_sha": "b3fd1126071cc175720d2680fdf9c32cae2af98a",
+      "exact_term_hits": 0,
+      "read_method": "pinned original source inspected"
+    },
+    {
+      "path": "TRIPOD-WATERMARK-HEADERS.md",
+      "git_blob_sha": "aebfd387ede1ec110e1e09c1ac36bd18996a9b3b",
+      "exact_term_hits": 0,
+      "read_method": "pinned original source inspected"
+    },
+    {
+      "path": "Toph Complex Math",
+      "git_blob_sha": "a7485aa3046f48799769b1c9bdd81569a9446bdb",
+      "exact_term_hits": 0,
+      "read_method": "pinned original source inspected",
+      "note": "Identical Git blob shared by the two paths"
+    },
+    {
+      "path": "ch41-creation-loop.html",
+      "git_blob_sha": "434419a071e6f0b591e155dd489f52ffa828cec6",
+      "exact_term_hits": 0,
+      "read_method": "pinned original source inspected"
+    },
+    {
+      "path": "client-portal.html",
+      "git_blob_sha": "39c7bc2e3b7420bb8465130cca8ff7e58f02e0a",
+      "exact_term_hits": 0,
+      "read_method": "pinned original source inspected"
+    },
+    {
+      "path": "evidence-catalog.html",
+      "git_blob_sha": "07794bae05f019dc4ae63ae0d34fb03932f270f0",
+      "exact_term_hits": 0,
+      "read_method": "pinned original source inspected"
+    },
+    {
+      "path": "nitro-rc.html",
+      "git_blob_sha": "b2e0f90d27d0f6d7d62a8d335f736d20d4ceb313",
+      "exact_term_hits": 0,
+      "read_method": "pinned original source inspected"
+    },
+    {
+      "path": "toph-exe.html",
+      "git_blob_sha": "78a1d5167e9bf2d7f92e204dd7061f3eccd6ff32",
+      "exact_term_hits": 0,
+      "read_method": "pinned original source inspected"
+    },
+    {
+      "path": "toph-lattice.html",
+      "git_blob_sha": "edf21078150981b1433159ae4d4a912f625112da",
+      "exact_term_hits": 0,
+      "read_method": "pinned original source inspected"
+    },
+    {
+      "path": "toph-nano-factory.html",
+      "git_blob_sha": "064674546126c8cf4eadd867c974968f9eff8480",
+      "exact_term_hits": 0,
+      "read_method": "pinned original source inspected"
+    },
+    {
+      "path": "toph-pentest-suite.html",
+      "git_blob_sha": "0588a755b1d60f33ecf525ce94fe9f3ae6770518",
+      "exact_term_hits": 0,
+      "read_method": "pinned original source inspected"
+    },
+    {
+      "path": "toph_complex_math.html",
+      "git_blob_sha": "a7485aa3046f48799769b1c9bdd81569a9446bdb",
+      "exact_term_hits": 0,
+      "read_method": "pinned original source inspected",
+      "note": "Identical Git blob shared by the two paths"
+    },
+    {
+      "path": "toph_cortex_suite.html",
+      "git_blob_sha": "8f07c013f8339bdc7a2b913d10382595b1a84b2d",
+      "exact_term_hits": 0,
+      "read_method": "pinned original source inspected"
+    },
+    {
+      "path": "toph_memory.html",
+      "git_blob_sha": "9bf307f9568667c8460450d65a114cc62771a2b9",
+      "exact_term_hits": 0,
+      "read_method": "pinned original source inspected"
+    },
+    {
+      "path": "toph_numpy_scipy.html",
+      "git_blob_sha": "48dd10a609add01bd400acc90020ae8ed74f67c1",
+      "exact_term_hits": 0,
+      "read_method": "pinned original source inspected"
+    }
+  ],
+  "additional_artifacts": [
+    {
+      "file": "README.md",
+      "commit": "5c19bee886af0b5cffacac6cc61cd9abf07fa872",
+      "date": "2026-02-19T12:59:38Z",
+      "sha": "10cac38abd5033c4b264b2e5987dd6ddfa9c41c4",
+      "exact_label_hits": 0,
+      "content": "TOPH v10, 42 axioms, five eras and claimed earlier authorship date."
+    },
+    {
+      "file": "README (1).md",
+      "commit": "272927b7aa342a635a4b8d1300815407c7a2fd4a",
+      "date": "2026-02-19T13:12:52Z",
+      "sha": "648101eed22df57e3fae50c85d3ddf81891bf546",
+      "exact_label_hits": 0,
+      "content": "Explicit author-stated February 2 creation / February 19 declaration dates and detailed 3002 lattice description; author assertion of February 2 creation does not constitute a separate February 2 public record."
+    }
+  ],
+  "results": [
+    {
+      "claim": "The pinned February 18 snapshot contains an executable-style and richly structured TOPH source collection.",
+      "status": "CONFIRMED_SOURCE_PRESENCE",
+      "basis": "Multiple pinned HTML modules with Git blobs; code was inspected as text, not browser tested."
+    },
+    {
+      "claim": "The pinned February 18 snapshot contains ETHOS PATHOS LOGOS MYTHOS exact label strings.",
+      "status": "NOT_FOUND",
+      "basis": "All regular files represented, 16 distinctive blob hashes; literal exact case-insensitive word search zero matches in inspected text. Binary-free snapshot."
+    },
+    {
+      "claim": "February 19 standalone declarations substantiate an author assertion of February 2 creation.",
+      "status": "CONFIRMED_AS_AUTHOR_ASSERTION",
+      "basis": "February 19 pinned README (1).md and beacon identify claimed dates; Git proves text present by its commit date only."
+    },
+    {
+      "claim": "No ETHOS PATHOS LOGOS frameworks existed anywhere before April 2026.",
+      "status": "NOT_TESTED_AND_NOT_IMPLIED",
+      "basis": "Other repos, private drafts, manuscripts, email, external archival material and historical deleted files not exhaustively inspected."
+    },
+    {
+      "claim": "AI company downloaded or learned from this exact February source.",
+      "status": "NOT_ESTABLISHED",
+      "basis": "Platform-level aggregate exposure has no named recipient records."
+    }
+  ],
+  "evidence_bound": "Pin exact commit and byte-identical Git blob identities. Absence within a bounded snapshot is not absence from the broader historical corpus. Multiple paths sharing one Git blob are one source ancestry, not independent corroboration.",
+  "next": "Find separately published independently timestamped January–February files for the three appeal frameworks, or corroborating dated direct records, and compare source-level unique mechanisms to pre-existing technical and cultural patterns."
+}
