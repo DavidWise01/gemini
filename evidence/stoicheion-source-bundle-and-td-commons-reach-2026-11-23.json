@@ -1,0 +1,76 @@
+{
+  "schema": "root0.convergence.stoicheion-source-and-distribution-evidence/1",
+  "recorded_date": "2026-11-23",
+  "source_delivery": "User-uploaded original STOICHEION source bundle and separate screenshot of Digital Commons dashboard",
+  "upload_metadata": {
+    "bundle_filename": "STOICHEION_foundation_source_bundle.zip",
+    "bundle_sha256": "97b4fd877bdd259566e87bbc0b0f26ba7be45cdc263a3fe0e6c49375585d12ad",
+    "manifest_source_files": 14,
+    "manifest_hashes_verified": 14,
+    "manifest_consistency": "All 14 files' SHA-256 digests match embedded MANIFEST.json; proves file integrity within this provided archive, NOT their original date of authoring.",
+    "included_types": [
+      "Markdown manuscripts",
+      "EPUB manual",
+      "JPEG covers"
+    ],
+    "manuscript_content_scope": [
+      "Origins: December 2025–February 2026 (author narrative)",
+      "STOICHEION v11 / 256-position governance register",
+      "Inference Layer",
+      "Axiom Register",
+      "Technical Manual Parts I–VI and appendices"
+    ],
+    "title_and_date_fields": {
+      "foreword": "Version 1.0 — April 2026",
+      "prior_art_asserted": "February 2, 2026",
+      "classification": "Author manuscript's dates, not independent timestamp proof"
+    }
+  },
+  "external_publication_context": {
+    "verified_in_prior_audit": [
+      {
+        "date": "2026-02-25",
+        "item": "Bidirectional Extraction Gateway Architecture",
+        "url": "https://www.tdcommons.org/dpubs_series/9391/"
+      },
+      {
+        "date": "2026-03-03",
+        "item": "STOICHEION: A 128-Bit Dual-Substrate Governance Firmware Specification",
+        "url": "https://www.tdcommons.org/dpubs_series/9440/"
+      }
+    ],
+    "important_distinction": "The external TD Commons publications support their exact published descriptions/dates. They do not automatically establish that every detail of the later complete manual was already disclosed then."
+  },
+  "distribution_snapshot": {
+    "image_filename": "image(20261124-000640).png",
+    "image_sha256": "cb73532385470999fac79f97c3d75b99759701bd752cfb2578c61754836f7207",
+    "evidence": "USER_PROVIDED_SCREENSHOT_UNVERIFIED_WITH_PLATFORM",
+    "displayed_period": "All Time",
+    "total_downloads": 2663,
+    "total_metadata_page_hits": 1230,
+    "total_countries": 102,
+    "geo_map": "Blue regional count markers on map. Geographic points represent aggregate dashboard activity, not identities.",
+    "user_context": "User says the dashboard covers TD Commons publications since February 2026.",
+    "limitations": [
+      "Aggregate counts do not measure unique downloaders or unique institutions.",
+      "Country count does not identify recipients or prove any named corporate access.",
+      "Snapshot does not provide per-paper download timestamps, referrers, IP addresses or raw transaction logs.",
+      "The screenshot's current dashboard counters do not retroactively establish who accessed specific content before any model training cutoff."
+    ]
+  },
+  "audit_impact": {
+    "source_integrity": "User-uploaded bundle is reproducibly hash-consistent; current copy preserved.",
+    "timestamp_standing": "February–March externally dated publications remain primary chronology anchors; the full manuscript's February 2 prior art line is an author statement pending earlier independent source.",
+    "exposure_standing": "Digital Commons dashboard displays nonzero downloads and geographic reach; demonstrates platform-reported activity, not who accessed exact manuscripts.",
+    "training_attribution": "No demonstrated AI-company download or training ingestion.",
+    "naming_provenance": "No mechanism or name-selection transfer demonstrated.",
+    "status": "PUBLIC_DISTRIBUTION_REPORTED__SPECIFIC_RECIPIENT_UNKNOWN"
+  },
+  "next_evidence_needed": [
+    "TD Commons item-level downloads by period, if accessible",
+    "Original item submission timestamp and accepted archival versions",
+    "Earliest file-system or independent signed records of specific framework modules",
+    "Any corporate design memo or ingestion log showing named document use"
+  ],
+  "supersedes": "None; append-only supplement to v2.8 chronology."
+}
