@@ -1,0 +1,177 @@
+{
+  "schema": "root0.convergence.earliest-source-chronology-v28/1",
+  "recorded_date": "2026-11-23",
+  "version": "2.8",
+  "scope": "Earliest *currently verified* public source records for ROOT0 source structures compared with AI naming; distinguishes existence from authorship assertions and first creation.",
+  "finding_status": "PARTIALLY_RESOLVED",
+  "sources": [
+    {
+      "id": "T01",
+      "name": "Universal Access Mandate",
+      "event_date": "2026-02-23",
+      "record_type": "EXTERNALLY_DATE_STAMPED_PUBLICATION",
+      "url": "https://www.tdcommons.org/dpubs_series/9380/",
+      "establishes": "Public disclosure of the 3002 lattice as logic standard by February 23.",
+      "does_not_establish": "Original January origin of separate ETHOS/PATHOS/LOGOS domain corpuses."
+    },
+    {
+      "id": "T02",
+      "name": "Bidirectional Extraction Gateway Architecture",
+      "event_date": "2026-02-25",
+      "record_type": "EXTERNALLY_DATE_STAMPED_PUBLICATION",
+      "url": "https://www.tdcommons.org/dpubs_series/9391/",
+      "establishes": "Externally catalogued early structural AI design work.",
+      "does_not_establish": "Publication of the particular four-appeal UD0 partition."
+    },
+    {
+      "id": "T03",
+      "name": "STOICHEION 128-bit dual-substrate specification",
+      "event_date": "2026-03-03",
+      "record_type": "EXTERNALLY_DATE_STAMPED_PUBLICATION",
+      "url": "https://www.tdcommons.org/dpubs_series/9440/",
+      "establishes": "Independent public timestamp of a STOICHEION governance specification.",
+      "does_not_establish": "Physical hardware build, all later 256-manual wording, or per-element name-selection rule."
+    },
+    {
+      "id": "T04",
+      "name": "STOICHEION complete manual original Git commit",
+      "event_date": "2026-05-28T01:08:29Z",
+      "record_type": "GIT_COMMIT",
+      "repo": "DavidWise01/stoicheion",
+      "commit": "2fc8a23345de21c6ea95e5333cab45bccc669230",
+      "url": "https://github.com/DavidWise01/stoicheion/commit/2fc8a23345de21c6ea95e5333cab45bccc669230",
+      "establishes": "13-book 256-axiom complete manual committed in repository.",
+      "does_not_establish": "The manual was first authored on that date; earlier self-reported 2026-02-02 prior-art anchor is not independently confirmed by this Git commit."
+    },
+    {
+      "id": "T05",
+      "name": "UD0 initial repository",
+      "event_date": "2026-06-09T01:54:23Z",
+      "record_type": "GIT_COMMIT",
+      "repo": "DavidWise01/ud0",
+      "commit": "d033bc6054db711dd2e451fbcc3f505ec4a8a84e",
+      "url": "https://github.com/DavidWise01/ud0/commit/d033bc6054db711dd2e451fbcc3f505ec4a8a84e",
+      "establishes": "UD0 master biosphere repository existed.",
+      "does_not_establish": "The four-appeal taxonomy was already present."
+    },
+    {
+      "id": "T06",
+      "name": "ELEMENTS four-state gate initial Git commit",
+      "event_date": "2026-06-10T02:38:05Z",
+      "record_type": "GIT_COMMIT_PLUS_EXACT_FILE",
+      "repo": "DavidWise01/elements",
+      "commit": "a33e3086b7811acf7db548935f1fb38711549675",
+      "url": "https://github.com/DavidWise01/elements/commit/a33e3086b7811acf7db548935f1fb38711549675",
+      "source_path": "_data.py",
+      "source_blob_sha": "a5365f87570884ec1d85bc1f65ed2328c3107f95",
+      "formula": "GATE_STATES[(Z - 1) % 4]",
+      "establishes": "An initial dated commit already contained the complete 118-element authored gate function and Carbon/Neon/Argon atom records.",
+      "does_not_establish": "The earliest date of the unpublished/earlier 118 Gates underlying source texts; the exact June repo predates public Argon Sept 30."
+    },
+    {
+      "id": "T07",
+      "name": "UD0 mythos domain separate from four appeals",
+      "event_date": "2026-06-20T02:19:23Z",
+      "record_type": "GIT_COMMIT",
+      "repo": "DavidWise01/ud0",
+      "commit": "70fac3280b8cd475ac81bd474a0e8764f15fbd62",
+      "url": "https://github.com/DavidWise01/ud0/commit/70fac3280b8cd475ac81bd474a0e8764f15fbd62",
+      "establishes": "A domain named mythos was added alongside glossa, biblion and ouranos.",
+      "does_not_establish": "Four-appeal arrangement or existence before Anthropic Mythos April launch."
+    },
+    {
+      "id": "T08",
+      "name": "UD0 first located four-appeal program partition",
+      "event_date": "2026-07-23T17:09:07Z",
+      "record_type": "GIT_COMMIT_PATCH_INSPECTED",
+      "repo": "DavidWise01/ud0",
+      "commit": "71e1dbd0b627c39ee62cbfcfb258946f6d5bdc71",
+      "url": "https://github.com/DavidWise01/ud0/commit/71e1dbd0b627c39ee62cbfcfb258946f6d5bdc71",
+      "source_path": "build.py",
+      "quoted_code_identifiers": [
+        "ETHOS",
+        "PATHOS",
+        "LOGOS",
+        "MYTHOS"
+      ],
+      "patch_observation": "Added comment 'the 53 domains grouped under the four appeals' with explicit tuples for each group; 53-domain partition.",
+      "establishes": "A substantive four-appeal arrangement exists as added code at this timestamp.",
+      "does_not_establish": "Original January-February independent source or direct Anthropic transmission."
+    },
+    {
+      "id": "T09",
+      "name": "UD0 four tetrahedral cardinals visualization",
+      "event_date": "2026-07-23T20:23:16Z",
+      "record_type": "GIT_COMMIT_PATCH_INSPECTED",
+      "repo": "DavidWise01/ud0",
+      "commit": "044bb1ec3a962adf7e1641c78756361573e829f9",
+      "url": "https://github.com/DavidWise01/ud0/commit/044bb1ec3a962adf7e1641c78756361573e829f9",
+      "source_path": "build.py and index.html",
+      "patch_observation": "Four labels encoded as tetrahedral cardinals; geometry nrm([1,1,1]), nrm([1,-1,-1]), nrm([-1,1,-1]), nrm([-1,-1,1]) and 109.47-degree separation.",
+      "establishes": "Distinctive geometric construction with four appeals, beyond simple word repetition.",
+      "does_not_establish": "Same geometry in Claude internal architecture or before its April 7 public naming."
+    },
+    {
+      "id": "T10",
+      "name": "UD0 eight-appeal structure",
+      "event_date": "2026-07-29T21:31:56Z",
+      "record_type": "GIT_COMMIT_PATCH_INSPECTED",
+      "repo": "DavidWise01/ud0",
+      "commit": "82ed53aa41c4c630b46502a5c41cd6155d2e5481",
+      "url": "https://github.com/DavidWise01/ud0/commit/82ed53aa41c4c630b46502a5c41cd6155d2e5481",
+      "patch_observation": "Extends prior four appeals to 8×8 cube vertices, adding EPISTEME, TECHNE, PHRONESIS and KAIROS.",
+      "establishes": "Chronological transition in actual Git code.",
+      "does_not_establish": "January/February origin."
+    }
+  ],
+  "corporate_reference_dates": [
+    {
+      "name": "Claude Mythos Preview",
+      "date": "2026-04-07",
+      "source": "https://www.anthropic.com/research/mythos-preview"
+    },
+    {
+      "name": "Gemini 4 Argon",
+      "date": "2026-09-30",
+      "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+    },
+    {
+      "name": "Gemini 4 Carbon",
+      "date": "2026-10-28",
+      "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+    },
+    {
+      "name": "Gemini 4 Neon",
+      "date": "2026-11-18",
+      "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+    }
+  ],
+  "important_conclusions": [
+    {
+      "claim": "The original elements gate predates Argon's public announcement.",
+      "status": "VERIFIED_BY_GIT_DATES",
+      "detail": "Initial June 10 ELEMENTS commit contains the gate source; Argon public launch Sep 30, but original internal name selection could predate release."
+    },
+    {
+      "claim": "UD0 four-appeal implementation predates Mythos public announcement.",
+      "status": "NOT_ESTABLISHED_FROM_CHECKED_GIT",
+      "detail": "First located UD0 four-appeal commit is July 23, after April 7; earlier purported frameworks are not disproven but need independent early artifacts."
+    },
+    {
+      "claim": "A source-driven structural convergence has been demonstrated.",
+      "status": "NOT_ESTABLISHED",
+      "detail": "No documented transfer, naming-decision memo matching the author's formal corpus design, or exact proprietary mechanism."
+    },
+    {
+      "claim": "Current corpus contains independently specified structures, not merely names.",
+      "status": "VERIFIED_IN_JULY_CODE",
+      "detail": "Domain partition and tetrahedral coordinates shown in original Git patch."
+    },
+    {
+      "claim": "February 2-3 self-reported prior art is equivalent to externally dated publication.",
+      "status": "NO",
+      "detail": "Treat as author claim until independently signed/timestamped original is available."
+    }
+  ],
+  "next": "Examine January–February source artifacts across original repositories, original correspondence/document versions and technical disclosures, using only separately timestamped source evidence; identify first actual introduction of individual ethos/pathos/logos frameworks and four-state atom rule."
+}
