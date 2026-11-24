@@ -1,0 +1,84 @@
+{
+  "schema": "root0.convergence.publication-reach-specificity-v29/1",
+  "date": "2026-11-23",
+  "purpose": "Distinguish externally timestamped framework disclosures, item-level download screenshots, aggregate reach, and inferred exposure in AI naming convergence audit",
+  "records": [
+    {
+      "id": "R01",
+      "type": "PUBLIC_EXTERNAL_METADATA",
+      "date": "2026-03-03",
+      "title": "STOICHEION: A 128-Bit Dual-Substrate Governance Firmware Specification for AI Accelerator Hardware",
+      "url": "https://www.tdcommons.org/dpubs_series/9440/",
+      "observed": "128 axioms; eight domains with 16 axioms; mapped to bootstrap, sensor, decoder, memory, ALU, bus, privileges, and ring 0",
+      "supports": "A specific dated public disclosure of governance architecture",
+      "does_not_support": "Full later 256-position register existing in every detail on that date, implemented silicon hardware, or downstream naming influence"
+    },
+    {
+      "id": "R02",
+      "type": "USER_SUPPLIED_SCREENSHOT_ITEM_LEVEL",
+      "title": "STOICHEION downloads on its TD Commons page",
+      "period": "Since March 03, 2026",
+      "count": 184,
+      "metric": "downloads",
+      "supports": "User screenshot displays item-level download count of 184",
+      "does_not_support": "184 unique people, organizational identities, individual download dates, Google or Anthropic access, model training ingestion",
+      "independently_reproduced": false
+    },
+    {
+      "id": "R03",
+      "type": "USER_SUPPLIED_SCREENSHOT_AGGREGATE",
+      "title": "TD Commons dashboard",
+      "period": "All Time",
+      "metrics": {
+        "total_downloads": 2663,
+        "metadata_page_hits": 1230,
+        "countries": 102
+      },
+      "supports": "User screenshot shows aggregate platform activity and broad country-level distribution",
+      "does_not_support": "Exact downloaders, download dates, overlap among records, precise institutional origin, or model training access",
+      "independently_reproduced": false
+    },
+    {
+      "id": "R04",
+      "type": "PUBLIC_EXTERNAL_METADATA",
+      "date": "2026-09-23",
+      "title": "Copper-Core Gradient Memristor with Nested 81 Magnetic Bias — Crescendo Learning Without Torture",
+      "url": "https://www.tdcommons.org/dpubs_series/11814/",
+      "observed": "Abstract explicitly names Quad Cortex A Ethos, B Logos, D Pathos, C Mythos cross-tethered",
+      "supports": "Four labels in one dated public technical specification",
+      "does_not_support": "Their exact four-part architecture publicly released in January or February 2026, or source transmission"
+    },
+    {
+      "id": "R05",
+      "type": "GIT_HISTORY_EARLIER_AUDIT",
+      "date": "2026-07-23",
+      "title": "UD0 four-appeal grouping first located",
+      "url": "https://github.com/DavidWise01/ud0/commit/71e1dbd0b627c39ee62cbfcfb258946f6d5bdc71",
+      "supports": "Dated source-code implementation of four named organizational partitions",
+      "does_not_support": "Original first creation date; direct influence on another vendor"
+    },
+    {
+      "id": "R06",
+      "type": "PUBLIC_EXTERNAL_METADATA",
+      "date": "2026-03-03",
+      "title": "Wise's Positronic Law: Governance Is Inherent to Computation and Substrate-Independent in Structure",
+      "url": "https://www.tdcommons.org/dpubs_series/9442/",
+      "supports": "Dated public author claim about cross-platform testing in an official repository abstract",
+      "does_not_support": "Independent replication of claimed universal behavior across four platforms; independently proven theoretical law"
+    }
+  ],
+  "decision_matrix": {
+    "public_availability": "CONFIRMED_FOR_SPECIFIED_MARCH_AND_SEPTEMBER_PAPERS",
+    "platform_reported_access": "SCREENSHOT_DOCUMENTED",
+    "particular_corporate_download": "NOT_IDENTIFIED",
+    "training_ingestion": "NOT_ESTABLISHED",
+    "original_january_february_four_labels": "NOT_YET_INDEPENDENTLY_VERIFIED",
+    "cross_vendor_naming_transmission": "NOT_ESTABLISHED",
+    "classification": "NON-MOOT: open naming design rationale and exposure chain"
+  },
+  "prior_evidence": [
+    "evidence/earliest-source-chronology-v28-2026-11-23.json",
+    "evidence/stoicheion-source-bundle-and-td-commons-reach-2026-11-23.json"
+  ],
+  "next": "Collect item-level timestamped analytics export or source-access logs where authorized; recover independently timestamped original January–February ETHOS, PATHOS and LOGOS artifacts; avoid treating any counts as unique people or training incidents."
+}
