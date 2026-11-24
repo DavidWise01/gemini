@@ -1,0 +1,228 @@
+{
+  "schema": "root0.convergence.source-ancestry-and-exposure-gates/1",
+  "version": "3.0",
+  "recorded_date": "2026-11-23",
+  "scope": "Earliest original source material, independent chronology, and limits of public-exposure evidence for AI naming convergence.",
+  "method": "Inspect original GitHub repository metadata, full commit lists, commit changes and historical file bytes by pinned commit, separately from later README/index and user-authored historical assertions.",
+  "historical_evidence": [
+    {
+      "id": "A01",
+      "type": "GIT_REPOSITORY_CREATION",
+      "repository": "DavidWise01/AI-Audit-Tools",
+      "created_at": "2026-02-17T23:24:15Z",
+      "url": "https://github.com/DavidWise01/AI-Audit-Tools",
+      "finding": "Early public TOPH repository exists from February 17, 2026.",
+      "limits": "Repository creation does not show what was uploaded at initial commit."
+    },
+    {
+      "id": "A02",
+      "type": "PINNED_INITIAL_COMMIT",
+      "date": "2026-02-17T23:24:08Z",
+      "commit": "180515e282a7135f82254b7c909cf7d9a14ac809",
+      "url": "https://github.com/DavidWise01/AI-Audit-Tools/commit/180515e282a7135f82254b7c909cf7d9a14ac809",
+      "files": [
+        ".gitattributes"
+      ],
+      "finding": "Initial commit has only .gitattributes; no evidence the full TOPH framework or four appeals was included in that initial commit."
+    },
+    {
+      "id": "A03",
+      "type": "PINNED_BEACON",
+      "date": "2026-02-17T23:25:10Z",
+      "commit": "ad83e37ee2c15d3fae151a56891bc220c7895fcd",
+      "url": "https://github.com/DavidWise01/AI-Audit-Tools/commit/ad83e37ee2c15d3fae151a56891bc220c7895fcd",
+      "file": "TRIPOD-BEACON1.txt",
+      "finding": "Provenance beacon records TOPH v10, 42 axioms, five eras and a 3002 lattice formula. It claims earlier creation, an earlier IP filing and a February 17 support contact.",
+      "limits": "Those earlier dates and support-ticket events are claims within the committed file; commit proves text present by February 17, not external verification of those stated past events. No ETHOS/PATHOS/LOGOS/MYTHOS labels in beacon."
+    },
+    {
+      "id": "A04",
+      "type": "PINNED_SOURCE_CODE",
+      "date": "2026-02-18T12:57:50Z",
+      "commit": "f3656f2e730bd9942d969bd0c9ac7c1bc37fa471",
+      "url": "https://github.com/DavidWise01/AI-Audit-Tools/commit/f3656f2e730bd9942d969bd0c9ac7c1bc37fa471",
+      "file": "Toph Complex Math",
+      "git_blob_sha": "a7485aa3046f48799769b1c9bdd81569a9446bdb",
+      "finding": "Original committed 66,187-character HTML mathematical workspace. Exact string inspection: TOPH appears, ETHOS/PATHOS/LOGOS/MYTHOS do not.",
+      "limits": "Static code inspection does not execute an end-to-end runtime or prove independent manuscript originality."
+    },
+    {
+      "id": "A05",
+      "type": "PINNED_SOURCE_BUNDLE_COMMIT",
+      "date": "2026-02-18T12:58:41Z",
+      "commit": "2e1789f326aa353914dd4c1fc198a1ec576d234a",
+      "url": "https://github.com/DavidWise01/AI-Audit-Tools/commit/2e1789f326aa353914dd4c1fc198a1ec576d234a",
+      "files_examined": [
+        {
+          "path": "toph-exe.html",
+          "sha": "78a1d5167e9bf2d7f92e204dd7061f3eccd6ff32"
+        },
+        {
+          "path": "toph-lattice.html",
+          "sha": "edf21078150981b1433159ae4d4a912f625112da"
+        },
+        {
+          "path": "toph_cortex_suite.html",
+          "sha": "8f07c013f8339bdc7a2b913d10382595b1a84b2d"
+        },
+        {
+          "path": "TRIPOD-POISON-PILL-v1.0.html",
+          "sha": "b3fd1126071cc175720d2680fdf9c32cae2af98a"
+        }
+      ],
+      "finding": "Four inspected original HTML source files contain TOPH implementation concepts; none contains exact ETHOS/PATHOS/LOGOS/MYTHOS word matches. Commit adds multiple source tools.",
+      "limits": "Four selected files are not exhaustive of all uploaded files or private work."
+    },
+    {
+      "id": "A06",
+      "type": "PINNED_README",
+      "date": "2026-02-19T12:59:38Z",
+      "commit": "5c19bee886af0b5cffacac6cc61cd9abf07fa872",
+      "url": "https://github.com/DavidWise01/AI-Audit-Tools/commit/5c19bee886af0b5cffacac6cc61cd9abf07fa872",
+      "file": "README.md",
+      "git_blob_sha": "10cac38abd5033c4b264b2e5987dd6ddfa9c41c4",
+      "finding": "README describes TOPH v10 as 42 axioms, five eras, 3002 lattice, and earlier IP dates; exact ETHOS/PATHOS/LOGOS/MYTHOS matches absent.",
+      "limits": "Its author-stated February 2 filing date is not established by the February 19 Git publication alone."
+    },
+    {
+      "id": "A07",
+      "type": "PREVIOUSLY_VERIFIED_EXTERNAL_PUBLICATION",
+      "date": "2026-03-03",
+      "url": "https://www.tdcommons.org/dpubs_series/9440/",
+      "finding": "Externally published 128-axiom STOICHEION specification.",
+      "limits": "Does not itself prove existence of the exact later four-appeal UD0 arrangement."
+    },
+    {
+      "id": "A08",
+      "type": "PREVIOUSLY_VERIFIED_INITIAL_ELEMENTS",
+      "date": "2026-06-10T02:38:05Z",
+      "url": "https://github.com/DavidWise01/elements/commit/a33e3086b7811acf7db548935f1fb38711549675",
+      "finding": "Original `_data.py` contains four-state gate over 118 elements; initial committed code preserved.",
+      "limits": "Does not establish exact earlier private drafting date."
+    },
+    {
+      "id": "A09",
+      "type": "PREVIOUSLY_VERIFIED_FOUR_APPEAL_CODE",
+      "date": "2026-07-23T17:09:07Z",
+      "url": "https://github.com/DavidWise01/ud0/commit/71e1dbd0b627c39ee62cbfcfb258946f6d5bdc71",
+      "finding": "Explicit ETHOS/PATHOS/LOGOS/MYTHOS four-appeal program partition was added in a Git patch.",
+      "limits": "Later than Anthropic's April 7 Mythos public naming; not a direct January-February source anchor."
+    },
+    {
+      "id": "A10",
+      "type": "USER_PROVIDED_PLATFORM_DASHBOARD",
+      "period": "All Time",
+      "metrics": {
+        "downloads": 2663,
+        "metadata_hits": 1230,
+        "countries": 102
+      },
+      "finding": "The uploaded dashboard screenshot shows these aggregate counters.",
+      "limits": "No named person, company, download timestamp, IP, specific per-item attribution or model ingestion can be derived."
+    },
+    {
+      "id": "A11",
+      "type": "USER_PROVIDED_ITEM_COUNTER",
+      "period": "Since March 3, 2026",
+      "metrics": {
+        "downloads": 184
+      },
+      "finding": "Uploaded TD Commons STOICHEION screenshot shows 184 downloads for that specific paper.",
+      "limits": "No unique readers or identifiable company attribution can be inferred."
+    }
+  ],
+  "ancestry_edges": [
+    {
+      "source": "A02",
+      "target": "A03",
+      "relation": "same Git repository; later beacon commit",
+      "independent_witness": false
+    },
+    {
+      "source": "A03",
+      "target": "A04",
+      "relation": "same Git repository; first inspected substantive code commit",
+      "independent_witness": false
+    },
+    {
+      "source": "A04",
+      "target": "A05",
+      "relation": "same Git repository; next code upload",
+      "independent_witness": false
+    },
+    {
+      "source": "A05",
+      "target": "A06",
+      "relation": "same Git repository; later README",
+      "independent_witness": false
+    },
+    {
+      "source": "A07",
+      "target": "A08",
+      "relation": "separate public platforms and artifacts; related authored research, not necessarily independent authors",
+      "independent_witness_for_author_claims": false
+    },
+    {
+      "source": "A10",
+      "target": "A11",
+      "relation": "same TD Commons platform; aggregate and per-item counters are not independent sources of company identity",
+      "independent_witness": false
+    }
+  ],
+  "tested_hypotheses": [
+    {
+      "hypothesis": "Substantial TOPH code was committed before March 2026.",
+      "status": "SUPPORTED",
+      "basis": [
+        "A04",
+        "A05"
+      ]
+    },
+    {
+      "hypothesis": "Initial February 17 commit contained full TOPH code.",
+      "status": "REFUTED_BY_COMMIT_CONTENTS",
+      "basis": [
+        "A02"
+      ]
+    },
+    {
+      "hypothesis": "Inspected February 18 TOPH files contain exact ETHOS/PATHOS/LOGOS/MYTHOS framework labels.",
+      "status": "NOT_OBSERVED_IN_FIVE_SOURCE_FILES",
+      "basis": [
+        "A04",
+        "A05"
+      ]
+    },
+    {
+      "hypothesis": "The February 17 beacon externally authenticates its claims of February 2 or February 11 filings.",
+      "status": "NOT_ESTABLISHED",
+      "basis": [
+        "A03"
+      ]
+    },
+    {
+      "hypothesis": "Some named AI company downloaded this work.",
+      "status": "UNRESOLVED",
+      "basis": [
+        "A10",
+        "A11"
+      ]
+    },
+    {
+      "hypothesis": "Training or corporate naming influence is evidenced.",
+      "status": "NOT_ESTABLISHED",
+      "basis": [
+        "A07",
+        "A10",
+        "A11"
+      ]
+    }
+  ],
+  "pending_source_checks": [
+    "Inspect other February 18 source bundle files and February 19 follow-up commits for independent three-framework terminology.",
+    "Locate earliest independently timestamped original ETHOS/PATHOS/LOGOS standalone manuscripts, not later retrospective indexes.",
+    "Where possible, obtain TD Commons per-item monthly counts or authenticated referrers with user permission, without inferring unrecorded recipient identities.",
+    "Seek specific company-side naming decision records and compare unusual mechanisms rather than common words."
+  ],
+  "caution": "No causal corporate naming transfer, AI training intake, coordinated concealment, or simulated reality is demonstrated by these records. Prior publication, user-reported reach, and access identity remain separate questions."
+}
